@@ -1,902 +1,1827 @@
 [
-{
-"id": 1,
-"tipo": "GET",
-"pergunta": "Qual frase significa 'Eu preciso pegar o ônibus às 7h'?",
-"frase_ingles": "I need to get the bus at 7 a.m.",
-"traducao": "Eu preciso pegar o ônibus às 7h.",
-"opcoes": ["I need to get the bus at 7 a.m.", "I need to take the bus at 7 a.m.", "I need to have the bus at 7 a.m.", "I need to catch the bus at 7 a.m."],
-"resposta_correta": "I need to get the bus at 7 a.m."
-},
-{
-"id": 2,
-"tipo": "GET",
-"pergunta": "Como dizer 'Eu preciso comprar um presente' usando GET?",
-"frase_ingles": "I need to get a gift.",
-"traducao": "Eu preciso comprar/arrumar um presente.",
-"opcoes": ["I need to get a gift.", "I need to make a gift.", "I need to do a gift.", "I need to take a gift."],
-"resposta_correta": "I need to get a gift."
-},
-{
-"id": 3,
-"tipo": "GET",
-"pergunta": "O que significa 'Did you get my message?'?",
-"frase_ingles": "Did you get my message?",
-"traducao": "Você recebeu minha mensagem?",
-"opcoes": ["Você escreveu minha mensagem?", "Você recebeu minha mensagem?", "Você apagou minha mensagem?", "Você respondeu minha mensagem?"],
-"resposta_correta": "Você recebeu minha mensagem?"
-},
-{
-"id": 4,
-"tipo": "GET",
-"pergunta": "Como dizer 'Estou ficando cansado'?",
-"frase_ingles": "I'm getting tired.",
-"traducao": "Estou ficando cansado.",
-"opcoes": ["I'm getting tired.", "I'm doing tired.", "I'm making tired.", "I'm taking tired."],
-"resposta_correta": "I'm getting tired."
-},
-{
-"id": 5,
-"tipo": "GET",
-"pergunta": "O que significa 'I got a new job'?",
-"frase_ingles": "I got a new job.",
-"traducao": "Eu consegui um emprego novo.",
-"opcoes": ["Eu perdi meu emprego.", "Eu consegui um emprego novo.", "Eu deixei meu emprego.", "Eu procurei um emprego novo."],
-"resposta_correta": "Eu consegui um emprego novo."
-},
-{
-"id": 6,
-"tipo": "GET",
-"pergunta": "Como dizer 'Você entendeu?' de forma natural?",
-"frase_ingles": "Did you get it?",
-"traducao": "Você entendeu?",
-"opcoes": ["Did you get it?", "Did you make it?", "Did you take it?", "Did you do it?"],
-"resposta_correta": "Did you get it?"
-},
-{
-"id": 7,
-"tipo": "GET",
-"pergunta": "O que significa 'I'll get back to you'?",
-"frase_ingles": "I'll get back to you.",
-"traducao": "Eu retorno para você / Entrarei em contato novamente.",
-"opcoes": ["Eu vou encontrar você.", "Eu vou retornar para você.", "Eu vou buscar você.", "Eu vou deixar você."],
-"resposta_correta": "Eu vou retornar para você."
-},
-{
-"id": 8,
-"tipo": "GET",
-"pergunta": "Como dizer 'Preciso chegar cedo ao trabalho'?",
-"frase_ingles": "I need to get to work early.",
-"traducao": "Preciso chegar cedo ao trabalho.",
-"opcoes": ["I need to get to work early.", "I need to get work early.", "I need to go work early.", "I need to arrive work early."],
-"resposta_correta": "I need to get to work early."
-},
-{
-"id": 9,
-"tipo": "GET",
-"pergunta": "O que significa 'Can you get me some water?'?",
-"frase_ingles": "Can you get me some water?",
-"traducao": "Você pode pegar/trazer um pouco de água para mim?",
-"opcoes": ["Você pode beber água comigo?", "Você pode pegar/trazer água para mim?", "Você pode vender água para mim?", "Você pode derramar água para mim?"],
-"resposta_correta": "Você pode pegar/trazer água para mim?"
-},
-{
-"id": 10,
-"tipo": "GET",
-"pergunta": "Como dizer 'Eu tenho que ir agora' usando GET?",
-"frase_ingles": "I've got to go now.",
-"traducao": "Eu tenho que ir agora.",
-"opcoes": ["I've got to go now.", "I've got going now.", "I've got go now.", "I've get to go now."],
-"resposta_correta": "I've got to go now."
-},
-{
-"id": 11,
-"tipo": "GET",
-"pergunta": "O que significa 'Get ready!'?",
-"frase_ingles": "Get ready!",
-"traducao": "Prepare-se!",
-"opcoes": ["Sente-se!", "Prepare-se!", "Vá embora!", "Acalme-se!"],
-"resposta_correta": "Prepare-se!"
-},
-{
-"id": 12,
-"tipo": "GET",
-"pergunta": "Como dizer 'Está ficando tarde'?",
-"frase_ingles": "It's getting late.",
-"traducao": "Está ficando tarde.",
-"opcoes": ["It's getting late.", "It's making late.", "It's doing late.", "It's taking late."],
-"resposta_correta": "It's getting late."
-},
-{
-"id": 13,
-"tipo": "GET",
-"pergunta": "O que significa 'I got sick yesterday'?",
-"frase_ingles": "I got sick yesterday.",
-"traducao": "Eu fiquei doente ontem.",
-"opcoes": ["Eu fiquei doente ontem.", "Eu fui ao médico ontem.", "Eu melhorei ontem.", "Eu fiquei em casa ontem."],
-"resposta_correta": "Eu fiquei doente ontem."
-},
-{
-"id": 14,
-"tipo": "GET",
-"pergunta": "Como dizer 'Vou pegar um café'?",
-"frase_ingles": "I'm going to get a coffee.",
-"traducao": "Vou pegar/comprar um café.",
-"opcoes": ["I'm going to get a coffee.", "I'm going to make a coffee.", "I'm going to do a coffee.", "I'm going to take a coffee."],
-"resposta_correta": "I'm going to get a coffee."
-},
-{
-"id": 15,
-"tipo": "GET",
-"pergunta": "O que significa 'I can't get comfortable'?",
-"frase_ingles": "I can't get comfortable.",
-"traducao": "Não consigo ficar confortável.",
-"opcoes": ["Não consigo dormir.", "Não consigo ficar confortável.", "Não consigo levantar.", "Não consigo sair."],
-"resposta_correta": "Não consigo ficar confortável."
-},
-{
-"id": 16,
-"tipo": "GET",
-"pergunta": "Como dizer 'Vou buscar você às 8h'?",
-"frase_ingles": "I'll get you at 8.",
-"traducao": "Vou buscar você às 8h.",
-"opcoes": ["I'll get you at 8.", "I'll take you at 8.", "I'll make you at 8.", "I'll go you at 8."],
-"resposta_correta": "I'll get you at 8."
-},
-{
-"id": 17,
-"tipo": "GET",
-"pergunta": "O que significa 'I need to get some sleep'?",
-"frase_ingles": "I need to get some sleep.",
-"traducao": "Preciso dormir um pouco.",
-"opcoes": ["Preciso trabalhar um pouco.", "Preciso dormir um pouco.", "Preciso comer um pouco.", "Preciso descansar a casa."],
-"resposta_correta": "Preciso dormir um pouco."
-},
-{
-"id": 18,
-"tipo": "GET",
-"pergunta": "Como dizer 'Como você conseguiu esse emprego?'?",
-"frase_ingles": "How did you get this job?",
-"traducao": "Como você conseguiu esse emprego?",
-"opcoes": ["How did you get this job?", "How did you make this job?", "How did you do this job?", "How did you take this job?"],
-"resposta_correta": "How did you get this job?"
-},
-{
-"id": 19,
-"tipo": "GET",
-"pergunta": "O que significa 'Let's get started'?",
-"frase_ingles": "Let's get started.",
-"traducao": "Vamos começar.",
-"opcoes": ["Vamos terminar.", "Vamos começar.", "Vamos esperar.", "Vamos sair."],
-"resposta_correta": "Vamos começar."
-},
-{
-"id": 20,
-"tipo": "GET",
-"pergunta": "Como dizer 'Preciso me acostumar com isso'?",
-"frase_ingles": "I need to get used to it.",
-"traducao": "Preciso me acostumar com isso.",
-"opcoes": ["I need to get used to it.", "I need to get it used.", "I need to use it.", "I need to get it."],
-"resposta_correta": "I need to get used to it."
-},
-{
-"id": 21,
-"tipo": "GET",
-"pergunta": "O que significa 'Get in the car'?",
-"frase_ingles": "Get in the car.",
-"traducao": "Entre no carro.",
-"opcoes": ["Saia do carro.", "Entre no carro.", "Lave o carro.", "Dirija o carro."],
-"resposta_correta": "Entre no carro."
-},
-{
-"id": 22,
-"tipo": "GET",
-"pergunta": "Como dizer 'Preciso resolver isso'?",
-"frase_ingles": "I need to get this done.",
-"traducao": "Preciso terminar/resolver isso.",
-"opcoes": ["I need to get this done.", "I need to get this started.", "I need to get this lost.", "I need to get this taken."],
-"resposta_correta": "I need to get this done."
-},
-{
-"id": 23,
-"tipo": "GET",
-"pergunta": "O que significa 'Did you get home safely?'?",
-"frase_ingles": "Did you get home safely?",
-"traducao": "Você chegou em casa em segurança?",
-"opcoes": ["Você saiu de casa?", "Você chegou em casa em segurança?", "Você limpou a casa?", "Você ficou em casa?"],
-"resposta_correta": "Você chegou em casa em segurança?"
-},
-{
-"id": 24,
-"tipo": "GET",
-"pergunta": "Como dizer 'Estou me sentindo melhor'?",
-"frase_ingles": "I'm getting better.",
-"traducao": "Estou melhorando / Estou me sentindo melhor.",
-"opcoes": ["I'm getting better.", "I'm making better.", "I'm taking better.", "I'm doing bettered."],
-"resposta_correta": "I'm getting better."
-},
-{
-"id": 25,
-"tipo": "GET",
-"pergunta": "O que significa 'Get out of here!'?",
-"frase_ingles": "Get out of here!",
-"traducao": "Saia daqui!",
-"opcoes": ["Entre aqui!", "Saia daqui!", "Fique aqui!", "Sente-se aqui!"],
-"resposta_correta": "Saia daqui!"
-},
-{
-"id": 26,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'wake up'?",
-"frase_ingles": "I wake up at 6 every day.",
-"traducao": "Eu acordo às 6 todos os dias.",
-"opcoes": ["Acordar", "Levantar algo", "Dormir", "Chegar"],
-"resposta_correta": "Acordar"
-},
-{
-"id": 27,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'turn on'?",
-"frase_ingles": "Can you turn on the light?",
-"traducao": "Você pode acender a luz?",
-"opcoes": ["Desligar", "Ligar", "Trocar", "Consertar"],
-"resposta_correta": "Ligar"
-},
-{
-"id": 28,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'turn off'?",
-"frase_ingles": "Please turn off the TV.",
-"traducao": "Por favor, desligue a TV.",
-"opcoes": ["Ligue", "Desligue", "Aumente", "Mova"],
-"resposta_correta": "Desligue"
-},
-{
-"id": 29,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Preciso procurar um novo apartamento'?",
-"frase_ingles": "I need to look for a new apartment.",
-"traducao": "Preciso procurar um novo apartamento.",
-"opcoes": ["I need to look for a new apartment.", "I need to look at a new apartment.", "I need to look up a new apartment.", "I need to look after a new apartment."],
-"resposta_correta": "I need to look for a new apartment."
-},
-{
-"id": 30,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'look after'?",
-"frase_ingles": "Can you look after my dog?",
-"traducao": "Você pode cuidar do meu cachorro?",
-"opcoes": ["Procurar", "Cuidar de", "Olhar rapidamente", "Encontrar"],
-"resposta_correta": "Cuidar de"
-},
-{
-"id": 31,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'give up'?",
-"frase_ingles": "Don't give up.",
-"traducao": "Não desista.",
-"opcoes": ["Não desista.", "Não comece.", "Não entre.", "Não espere."],
-"resposta_correta": "Não desista."
-},
-{
-"id": 32,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Vamos sair hoje à noite'?",
-"frase_ingles": "Let's go out tonight.",
-"traducao": "Vamos sair hoje à noite.",
-"opcoes": ["Let's go out tonight.", "Let's go in tonight.", "Let's go over tonight.", "Let's go back tonight."],
-"resposta_correta": "Let's go out tonight."
-},
-{
-"id": 33,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'find out'?",
-"frase_ingles": "I need to find out what happened.",
-"traducao": "Preciso descobrir o que aconteceu.",
-"opcoes": ["Esquecer", "Descobrir", "Esconder", "Explicar"],
-"resposta_correta": "Descobrir"
-},
-{
-"id": 34,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Vou verificar isso'?",
-"frase_ingles": "I'll check it out.",
-"traducao": "Vou verificar isso.",
-"opcoes": ["I'll check it out.", "I'll check it in.", "I'll check it up.", "I'll check it away."],
-"resposta_correta": "I'll check it out."
-},
-{
-"id": 35,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'pick up' em 'Can you pick me up?'?",
-"frase_ingles": "Can you pick me up at the airport?",
-"traducao": "Você pode me buscar no aeroporto?",
-"opcoes": ["Me deixar no aeroporto", "Me buscar no aeroporto", "Esperar no aeroporto", "Me encontrar no avião"],
-"resposta_correta": "Me buscar no aeroporto"
-},
-{
-"id": 36,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'put off'?",
-"frase_ingles": "Don't put it off until tomorrow.",
-"traducao": "Não deixe isso para amanhã.",
-"opcoes": ["Adiar", "Começar", "Terminar", "Cancelar definitivamente"],
-"resposta_correta": "Adiar"
-},
-{
-"id": 37,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Vamos continuar'?",
-"frase_ingles": "Let's carry on.",
-"traducao": "Vamos continuar.",
-"opcoes": ["Let's carry on.", "Let's carry out.", "Let's carry back.", "Let's carry in."],
-"resposta_correta": "Let's carry on."
-},
-{
-"id": 38,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'run out of'?",
-"frase_ingles": "We've run out of milk.",
-"traducao": "O leite acabou.",
-"opcoes": ["Compramos leite.", "O leite acabou.", "Derramamos o leite.", "Guardamos o leite."],
-"resposta_correta": "O leite acabou."
-},
-{
-"id": 39,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Descubra o que está acontecendo'?",
-"frase_ingles": "Find out what's going on.",
-"traducao": "Descubra o que está acontecendo.",
-"opcoes": ["Find out what's going on.", "Find up what's going on.", "Find in what's going on.", "Find over what's going on."],
-"resposta_correta": "Find out what's going on."
-},
-{
-"id": 40,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'calm down'?",
-"frase_ingles": "Please calm down.",
-"traducao": "Por favor, acalme-se.",
-"opcoes": ["Levante-se.", "Acalme-se.", "Sente-se.", "Apresse-se."],
-"resposta_correta": "Acalme-se."
-},
-{
-"id": 41,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Vou experimentar esta camisa'?",
-"frase_ingles": "I'm going to try on this shirt.",
-"traducao": "Vou experimentar esta camisa.",
-"opcoes": ["I'm going to try on this shirt.", "I'm going to try out this shirt.", "I'm going to try up this shirt.", "I'm going to try over this shirt."],
-"resposta_correta": "I'm going to try on this shirt."
-},
-{
-"id": 42,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'hang out'?",
-"frase_ingles": "Do you want to hang out this weekend?",
-"traducao": "Você quer sair/passar um tempo junto neste fim de semana?",
-"opcoes": ["Trabalhar no fim de semana", "Passar um tempo junto", "Ficar sozinho", "Viajar para longe"],
-"resposta_correta": "Passar um tempo junto"
-},
-{
-"id": 43,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Por favor, preencha este formulário'?",
-"frase_ingles": "Please fill out this form.",
-"traducao": "Por favor, preencha este formulário.",
-"opcoes": ["Please fill out this form.", "Please fill in this form.", "Please fill over this form.", "Please fill up this form."],
-"resposta_correta": "Please fill out this form."
-},
-{
-"id": 44,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'take off' em relação a um avião?",
-"frase_ingles": "The plane takes off at 9.",
-"traducao": "O avião decola às 9h.",
-"opcoes": ["O avião pousa.", "O avião decola.", "O avião para.", "O avião muda de rota."],
-"resposta_correta": "O avião decola."
-},
-{
-"id": 45,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Vou descobrir'?",
-"frase_ingles": "I'll find out.",
-"traducao": "Vou descobrir.",
-"opcoes": ["I'll find out.", "I'll find in.", "I'll find over.", "I'll find down."],
-"resposta_correta": "I'll find out."
-},
-{
-"id": 46,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'work out'?",
-"frase_ingles": "I work out three times a week.",
-"traducao": "Eu malho três vezes por semana.",
-"opcoes": ["Eu trabalho em casa.", "Eu malho três vezes por semana.", "Eu descanso três vezes por semana.", "Eu viajo três vezes por semana."],
-"resposta_correta": "Eu malho três vezes por semana."
-},
-{
-"id": 47,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Não se preocupe' usando um phrasal verb?",
-"frase_ingles": "Don't worry about it.",
-"traducao": "Não se preocupe com isso.",
-"opcoes": ["Don't worry about it.", "Don't worry it out.", "Don't worry it up.", "Don't worry it over."],
-"resposta_correta": "Don't worry about it."
-},
-{
-"id": 48,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'come back'?",
-"frase_ingles": "What time will you come back?",
-"traducao": "A que horas você vai voltar?",
-"opcoes": ["Voltar", "Chegar pela primeira vez", "Sair", "Esperar"],
-"resposta_correta": "Voltar"
-},
-{
-"id": 49,
-"tipo": "PHRASAL_VERB",
-"pergunta": "Como dizer 'Apague a luz antes de sair'?",
-"frase_ingles": "Turn off the light before you leave.",
-"traducao": "Apague a luz antes de sair.",
-"opcoes": ["Turn off the light before you leave.", "Turn on the light before you leave.", "Turn over the light before you leave.", "Turn in the light before you leave."],
-"resposta_correta": "Turn off the light before you leave."
-},
-{
-"id": 50,
-"tipo": "PHRASAL_VERB",
-"pergunta": "O que significa 'set up'?",
-"frase_ingles": "Can you set up the meeting?",
-"traducao": "Você pode organizar/agendar a reunião?",
-"opcoes": ["Cancelar a reunião", "Organizar/agendar a reunião", "Participar da reunião", "Sair da reunião"],
-"resposta_correta": "Organizar/agendar a reunião"
-},
-{
-"id": 51,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'How's it going?'?",
-"frase_ingles": "Hey, how's it going?",
-"traducao": "Oi, como estão as coisas?",
-"opcoes": ["Onde você está indo?", "Como estão as coisas?", "Aonde você vai?", "O que você está fazendo?"],
-"resposta_correta": "Como estão as coisas?"
-},
-{
-"id": 52,
-"tipo": "EXPRESSAO",
-"pergunta": "Como responder naturalmente a 'How are you?'?",
-"frase_ingles": "I'm doing well, thanks.",
-"traducao": "Estou bem, obrigado.",
-"opcoes": ["I'm doing well, thanks.", "I'm making well, thanks.", "I'm going well, thanks.", "I'm getting well, thanks."],
-"resposta_correta": "I'm doing well, thanks."
-},
-{
-"id": 53,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'No worries'?",
-"frase_ingles": "No worries. It's okay.",
-"traducao": "Sem problema. Tudo bem.",
-"opcoes": ["Estou preocupado.", "Sem problema.", "Não sei.", "Não posso."],
-"resposta_correta": "Sem problema."
-},
-{
-"id": 54,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Sem problemas' de maneira informal?",
-"frase_ingles": "No problem.",
-"traducao": "Sem problemas.",
-"opcoes": ["No problem.", "No chance.", "No matter.", "No way."],
-"resposta_correta": "No problem."
-},
-{
-"id": 55,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'Sounds good'?",
-"frase_ingles": "Let's meet at 7. Sounds good.",
-"traducao": "Vamos nos encontrar às 7. Parece ótimo.",
-"opcoes": ["Parece ruim.", "Parece ótimo.", "Não entendi.", "Estou ocupado."],
-"resposta_correta": "Parece ótimo."
-},
-{
-"id": 56,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Faz sentido'?",
-"frase_ingles": "That makes sense.",
-"traducao": "Isso faz sentido.",
-"opcoes": ["That makes sense.", "That does sense.", "That takes sense.", "That gets sense."],
-"resposta_correta": "That makes sense."
-},
-{
-"id": 57,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'Never mind'?",
-"frase_ingles": "Never mind. I figured it out.",
-"traducao": "Deixa pra lá. Eu descobri.",
-"opcoes": ["Não se preocupe.", "Deixa pra lá.", "Preste atenção.", "Continue falando."],
-"resposta_correta": "Deixa pra lá."
-},
-{
-"id": 58,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Depende'?",
-"frase_ingles": "It depends.",
-"traducao": "Depende.",
-"opcoes": ["It depends.", "It matters.", "It happens.", "It works."],
-"resposta_correta": "It depends."
-},
-{
-"id": 59,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'I'm on my way'?",
-"frase_ingles": "Don't worry, I'm on my way.",
-"traducao": "Não se preocupe, estou a caminho.",
-"opcoes": ["Estou perdido.", "Estou a caminho.", "Estou em casa.", "Estou trabalhando."],
-"resposta_correta": "Estou a caminho."
-},
-{
-"id": 60,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Não tenho certeza'?",
-"frase_ingles": "I'm not sure.",
-"traducao": "Não tenho certeza.",
-"opcoes": ["I'm not sure.", "I'm not ready.", "I'm not right.", "I'm not fine."],
-"resposta_correta": "I'm not sure."
-},
-{
-"id": 61,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'Take your time'?",
-"frase_ingles": "Take your time. There's no rush.",
-"traducao": "Não tenha pressa. Não há urgência.",
-"opcoes": ["Se apresse.", "Não tenha pressa.", "Vá embora.", "Pare agora."],
-"resposta_correta": "Não tenha pressa."
-},
-{
-"id": 62,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Estou com pressa'?",
-"frase_ingles": "I'm in a hurry.",
-"traducao": "Estou com pressa.",
-"opcoes": ["I'm in a hurry.", "I'm on a hurry.", "I'm at a hurry.", "I'm with a hurry."],
-"resposta_correta": "I'm in a hurry."
-},
-{
-"id": 63,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'It's up to you'?",
-"frase_ingles": "We can stay or leave. It's up to you.",
-"traducao": "Podemos ficar ou sair. Você decide.",
-"opcoes": ["Você está atrasado.", "Você decide.", "Você está certo.", "Você está ocupado."],
-"resposta_correta": "Você decide."
-},
-{
-"id": 64,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Isso é uma boa ideia'?",
-"frase_ingles": "That's a good idea.",
-"traducao": "Essa é uma boa ideia.",
-"opcoes": ["That's a good idea.", "That's a good point.", "That's a good way.", "That's a good thing."],
-"resposta_correta": "That's a good idea."
-},
-{
-"id": 65,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'You're right'?",
-"frase_ingles": "You're right. I made a mistake.",
-"traducao": "Você está certo. Eu cometi um erro.",
-"opcoes": ["Você está atrasado.", "Você está certo.", "Você está pronto.", "Você está ocupado."],
-"resposta_correta": "Você está certo."
-},
-{
-"id": 66,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Não faz diferença'?",
-"frase_ingles": "It doesn't matter.",
-"traducao": "Não faz diferença.",
-"opcoes": ["It doesn't matter.", "It doesn't work.", "It doesn't happen.", "It doesn't depend."],
-"resposta_correta": "It doesn't matter."
-},
-{
-"id": 67,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'I'm just kidding'?",
-"frase_ingles": "Relax, I'm just kidding.",
-"traducao": "Relaxe, estou apenas brincando.",
-"opcoes": ["Estou falando sério.", "Estou apenas brincando.", "Estou com raiva.", "Estou cansado."],
-"resposta_correta": "Estou apenas brincando."
-},
-{
-"id": 68,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Boa sorte!'?",
-"frase_ingles": "Good luck with your interview!",
-"traducao": "Boa sorte na sua entrevista!",
-"opcoes": ["Good time!", "Good luck!", "Good job!", "Good chance!"],
-"resposta_correta": "Good luck!"
-},
-{
-"id": 69,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'My bad'?",
-"frase_ingles": "My bad. I forgot to call you.",
-"traducao": "Foi mal. Esqueci de ligar para você.",
-"opcoes": ["Estou bem.", "Foi mal / Foi culpa minha.", "Não foi nada.", "Estou ocupado."],
-"resposta_correta": "Foi mal / Foi culpa minha."
-},
-{
-"id": 70,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Com certeza' de maneira natural?",
-"frase_ingles": "Absolutely!",
-"traducao": "Com certeza!",
-"opcoes": ["Absolutely!", "Actually!", "Eventually!", "Probably!"],
-"resposta_correta": "Absolutely!"
-},
-{
-"id": 71,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'I have no idea'?",
-"frase_ingles": "I have no idea where he is.",
-"traducao": "Não faço ideia de onde ele está.",
-"opcoes": ["Eu sei exatamente.", "Não faço ideia.", "Eu não gosto.", "Eu não posso ir."],
-"resposta_correta": "Não faço ideia."
-},
-{
-"id": 72,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Isso depende da situação'?",
-"frase_ingles": "It depends on the situation.",
-"traducao": "Depende da situação.",
-"opcoes": ["It depends on the situation.", "It matters the situation.", "It works the situation.", "It gets the situation."],
-"resposta_correta": "It depends on the situation."
-},
-{
-"id": 73,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'That's fine'?",
-"frase_ingles": "That's fine with me.",
-"traducao": "Tudo bem para mim.",
-"opcoes": ["Isso é caro.", "Tudo bem para mim.", "Isso é difícil.", "Isso é estranho."],
-"resposta_correta": "Tudo bem para mim."
-},
-{
-"id": 74,
-"tipo": "EXPRESSAO",
-"pergunta": "Como dizer 'Vamos ver'?",
-"frase_ingles": "Let's see what happens.",
-"traducao": "Vamos ver o que acontece.",
-"opcoes": ["Let's see what happens.", "Let's watch what happens.", "Let's look what happens.", "Let's view what happens."],
-"resposta_correta": "Let's see what happens."
-},
-{
-"id": 75,
-"tipo": "EXPRESSAO",
-"pergunta": "O que significa 'What do you mean?'?",
-"frase_ingles": "What do you mean?",
-"traducao": "O que você quer dizer?",
-"opcoes": ["O que você quer comprar?", "O que você quer dizer?", "Onde você está?", "Quando você vai?"],
-"resposta_correta": "O que você quer dizer?"
-},
-{
-"id": 76,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu acordo às 6 da manhã'?",
-"frase_ingles": "I wake up at 6 a.m.",
-"traducao": "Eu acordo às 6 da manhã.",
-"opcoes": ["I wake up at 6 a.m.", "I get up at 6 a.m.", "I sleep at 6 a.m.", "I wake at 6 p.m."],
-"resposta_correta": "I wake up at 6 a.m."
-},
-{
-"id": 77,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu escovo os dentes depois do café da manhã'?",
-"frase_ingles": "I brush my teeth after breakfast.",
-"traducao": "Eu escovo os dentes depois do café da manhã.",
-"opcoes": ["I brush my teeth after breakfast.", "I wash my teeth after breakfast.", "I clean my teeth after breakfasting.", "I brush my mouth after breakfast."],
-"resposta_correta": "I brush my teeth after breakfast."
-},
-{
-"id": 78,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu tomo banho antes do trabalho'?",
-"frase_ingles": "I take a shower before work.",
-"traducao": "Eu tomo banho antes do trabalho.",
-"opcoes": ["I take a shower before work.", "I make a shower before work.", "I do a shower before work.", "I get a shower before work."],
-"resposta_correta": "I take a shower before work."
-},
-{
-"id": 79,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu vou para o trabalho de carro'?",
-"frase_ingles": "I drive to work.",
-"traducao": "Eu vou para o trabalho de carro.",
-"opcoes": ["I drive to work.", "I walk to work.", "I ride to work.", "I take work."],
-"resposta_correta": "I drive to work."
-},
-{
-"id": 80,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu começo a trabalhar às 8h'?",
-"frase_ingles": "I start work at 8.",
-"traducao": "Eu começo a trabalhar às 8h.",
-"opcoes": ["I start work at 8.", "I begin to work on 8.", "I start working in 8.", "I begin work at 8 hours."],
-"resposta_correta": "I start work at 8."
-},
-{
-"id": 81,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu almoço ao meio-dia'?",
-"frase_ingles": "I have lunch at noon.",
-"traducao": "Eu almoço ao meio-dia.",
-"opcoes": ["I have lunch at noon.", "I do lunch at noon.", "I make lunch on noon.", "I take lunch in noon."],
-"resposta_correta": "I have lunch at noon."
-},
-{
-"id": 82,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu termino o trabalho às 5h'?",
-"frase_ingles": "I finish work at 5.",
-"traducao": "Eu termino o trabalho às 5h.",
-"opcoes": ["I finish work at 5.", "I end to work at 5.", "I finish the work in 5.", "I stop work on 5."],
-"resposta_correta": "I finish work at 5."
-},
-{
-"id": 83,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu volto para casa depois do trabalho'?",
-"frase_ingles": "I go home after work.",
-"traducao": "Eu volto/vou para casa depois do trabalho.",
-"opcoes": ["I go home after work.", "I go to home after work.", "I return to house after work.", "I come house after work."],
-"resposta_correta": "I go home after work."
-},
-{
-"id": 84,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu preparo o jantar à noite'?",
-"frase_ingles": "I make dinner in the evening.",
-"traducao": "Eu preparo o jantar à noite.",
-"opcoes": ["I make dinner in the evening.", "I do dinner at evening.", "I prepare the dinner on night.", "I take dinner in the evening."],
-"resposta_correta": "I make dinner in the evening."
-},
-{
-"id": 85,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu assisto TV depois do jantar'?",
-"frase_ingles": "I watch TV after dinner.",
-"traducao": "Eu assisto TV depois do jantar.",
-"opcoes": ["I watch TV after dinner.", "I see TV after dinner.", "I look TV after dinner.", "I assist TV after dinner."],
-"resposta_correta": "I watch TV after dinner."
-},
-{
-"id": 86,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu faço exercícios três vezes por semana'?",
-"frase_ingles": "I exercise three times a week.",
-"traducao": "Eu faço exercícios três vezes por semana.",
-"opcoes": ["I exercise three times a week.", "I do exercise three times in week.", "I make exercises three times a week.", "I practice exercise three times on week."],
-"resposta_correta": "I exercise three times a week."
-},
-{
-"id": 87,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu verifico meus e-mails pela manhã'?",
-"frase_ingles": "I check my emails in the morning.",
-"traducao": "Eu verifico meus e-mails pela manhã.",
-"opcoes": ["I check my emails in the morning.", "I see my emails on the morning.", "I verify my emails in morning.", "I look my emails at morning."],
-"resposta_correta": "I check my emails in the morning."
-},
-{
-"id": 88,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu tenho uma reunião às 10h'?",
-"frase_ingles": "I have a meeting at 10.",
-"traducao": "Eu tenho uma reunião às 10h.",
-"opcoes": ["I have a meeting at 10.", "I make a meeting at 10.", "I do a meeting in 10.", "I get a meeting on 10."],
-"resposta_correta": "I have a meeting at 10."
-},
-{
-"id": 89,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu trabalho de casa duas vezes por semana'?",
-"frase_ingles": "I work from home twice a week.",
-"traducao": "Eu trabalho de casa duas vezes por semana.",
-"opcoes": ["I work from home twice a week.", "I work at home two times on week.", "I do work from house twice a week.", "I work of home twice in week."],
-"resposta_correta": "I work from home twice a week."
-},
-{
-"id": 90,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu compro comida no supermercado aos sábados'?",
-"frase_ingles": "I buy groceries on Saturdays.",
-"traducao": "Eu compro comida/compras de mercado aos sábados.",
-"opcoes": ["I buy groceries on Saturdays.", "I make groceries on Saturdays.", "I take groceries in Saturdays.", "I get food at Saturday."],
-"resposta_correta": "I buy groceries on Saturdays."
-},
-{
-"id": 91,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu lavo minhas roupas no domingo'?",
-"frase_ingles": "I do laundry on Sunday.",
-"traducao": "Eu lavo minhas roupas no domingo.",
-"opcoes": ["I do laundry on Sunday.", "I make laundry on Sunday.", "I wash clothes in Sunday.", "I take laundry on Sunday."],
-"resposta_correta": "I do laundry on Sunday."
-},
-{
-"id": 92,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu arrumo a casa no fim de semana'?",
-"frase_ingles": "I clean the house on the weekend.",
-"traducao": "Eu limpo/arrumo a casa no fim de semana.",
-"opcoes": ["I clean the house on the weekend.", "I organize the house in the weekend.", "I make the house on the weekend.", "I do the house at weekend."],
-"resposta_correta": "I clean the house on the weekend."
-},
-{
-"id": 93,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu normalmente vou dormir às 11h'?",
-"frase_ingles": "I usually go to bed at 11.",
-"traducao": "Eu normalmente vou para a cama às 11h.",
-"opcoes": ["I usually go to bed at 11.", "I usually sleep to bed at 11.", "I usually go bed on 11.", "I usually get sleep at 11."],
-"resposta_correta": "I usually go to bed at 11."
-},
-{
-"id": 94,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu tento dormir oito horas por noite'?",
-"frase_ingles": "I try to get eight hours of sleep every night.",
-"traducao": "Eu tento dormir oito horas todas as noites.",
-"opcoes": ["I try to get eight hours of sleep every night.", "I try to make eight hours sleep every night.", "I try sleep eight hours in night.", "I try to have sleep eight hours every night."],
-"resposta_correta": "I try to get eight hours of sleep every night."
-},
-{
-"id": 95,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu tomo café antes de sair de casa'?",
-"frase_ingles": "I have coffee before I leave home.",
-"traducao": "Eu tomo café antes de sair de casa.",
-"opcoes": ["I have coffee before I leave home.", "I drink a coffee before I leave to home.", "I make coffee before I go from home.", "I take coffee before I leave the house."],
-"resposta_correta": "I have coffee before I leave home."
-},
-{
-"id": 96,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu verifico minha agenda todas as manhãs'?",
-"frase_ingles": "I check my schedule every morning.",
-"traducao": "Eu verifico minha agenda todas as manhãs.",
-"opcoes": ["I check my schedule every morning.", "I see my schedule all morning.", "I look my schedule every morning.", "I verify my agenda every morning."],
-"resposta_correta": "I check my schedule every morning."
-},
-{
-"id": 97,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu geralmente pego o ônibus para o trabalho'?",
-"frase_ingles": "I usually take the bus to work.",
-"traducao": "Eu geralmente pego o ônibus para o trabalho.",
-"opcoes": ["I usually take the bus to work.", "I usually get the bus for work.", "I usually ride the bus at work.", "I usually catch a bus in work."],
-"resposta_correta": "I usually take the bus to work."
-},
-{
-"id": 98,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu encontro meus amigos nos fins de semana'?",
-"frase_ingles": "I meet my friends on weekends.",
-"traducao": "Eu encontro meus amigos nos fins de semana.",
-"opcoes": ["I meet my friends on weekends.", "I see with my friends on weekends.", "I find my friends in weekends.", "I visit my friends at weekends."],
-"resposta_correta": "I meet my friends on weekends."
-},
-{
-"id": 99,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu planejo minha semana no domingo'?",
-"frase_ingles": "I plan my week on Sunday.",
-"traducao": "Eu planejo minha semana no domingo.",
-"opcoes": ["I plan my week on Sunday.", "I make my week on Sunday.", "I organize my week in Sunday.", "I prepare my week at Sunday."],
-"resposta_correta": "I plan my week on Sunday."
-},
-{
-"id": 100,
-"tipo": "ROTINA",
-"pergunta": "Como dizer 'Eu tento manter uma rotina saudável'?",
-"frase_ingles": "I try to maintain a healthy routine.",
-"traducao": "Eu tento manter uma rotina saudável.",
-"opcoes": ["I try to maintain a healthy routine.", "I try to make a healthy routine.", "I try to do a healthy routine.", "I try to keep a healthy routineing."],
-"resposta_correta": "I try to maintain a healthy routine."
-}
+  {
+    "id": 1,
+    "frase_ingles": "What have you been up to lately?",
+    "traducao": "O que você tem feito ultimamente?"
+  },
+  {
+    "id": 2,
+    "frase_ingles": "How's everything going?",
+    "traducao": "Como estão as coisas?"
+  },
+  {
+    "id": 3,
+    "frase_ingles": "I've been pretty busy lately.",
+    "traducao": "Tenho estado bem ocupado ultimamente."
+  },
+  {
+    "id": 4,
+    "frase_ingles": "I'm kind of tired today.",
+    "traducao": "Estou meio cansado hoje."
+  },
+  {
+    "id": 5,
+    "frase_ingles": "I'm feeling a bit under the weather.",
+    "traducao": "Estou me sentindo meio indisposto."
+  },
+  {
+    "id": 6,
+    "frase_ingles": "I'm doing pretty well.",
+    "traducao": "Estou indo bem."
+  },
+  {
+    "id": 7,
+    "frase_ingles": "I can't complain.",
+    "traducao": "Não posso reclamar."
+  },
+  {
+    "id": 8,
+    "frase_ingles": "It's been a while.",
+    "traducao": "Faz tempo."
+  },
+  {
+    "id": 9,
+    "frase_ingles": "Long time no see.",
+    "traducao": "Quanto tempo!"
+  },
+  {
+    "id": 10,
+    "frase_ingles": "What brings you here?",
+    "traducao": "O que traz você aqui?"
+  },
+  {
+    "id": 11,
+    "frase_ingles": "I haven't seen you around lately.",
+    "traducao": "Não tenho visto você por aí ultimamente."
+  },
+  {
+    "id": 12,
+    "frase_ingles": "Are you doing anything later?",
+    "traducao": "Você vai fazer alguma coisa mais tarde?"
+  },
+  {
+    "id": 13,
+    "frase_ingles": "I'm just taking it easy today.",
+    "traducao": "Hoje estou só descansando."
+  },
+  {
+    "id": 14,
+    "frase_ingles": "I'm just chilling at home.",
+    "traducao": "Estou só de boa em casa."
+  },
+  {
+    "id": 15,
+    "frase_ingles": "I'm gonna grab something to eat.",
+    "traducao": "Vou pegar alguma coisa para comer."
+  },
+  {
+    "id": 16,
+    "frase_ingles": "Do you wanna grab a coffee?",
+    "traducao": "Quer tomar um café?"
+  },
+  {
+    "id": 17,
+    "frase_ingles": "I'm down for that.",
+    "traducao": "Eu topo."
+  },
+  {
+    "id": 18,
+    "frase_ingles": "I'm not really into that.",
+    "traducao": "Não curto muito isso."
+  },
+  {
+    "id": 19,
+    "frase_ingles": "That sounds like a good idea.",
+    "traducao": "Parece uma boa ideia."
+  },
+  {
+    "id": 20,
+    "frase_ingles": "I'm totally up for it.",
+    "traducao": "Eu topo totalmente."
+  },
+  {
+    "id": 21,
+    "frase_ingles": "I get up around seven on weekdays.",
+    "traducao": "Eu levanto por volta das sete nos dias de semana."
+  },
+  {
+    "id": 22,
+    "frase_ingles": "I usually sleep in on weekends.",
+    "traducao": "Eu geralmente durmo até mais tarde nos fins de semana."
+  },
+  {
+    "id": 23,
+    "frase_ingles": "I need to get ready for work.",
+    "traducao": "Preciso me arrumar para o trabalho."
+  },
+  {
+    "id": 24,
+    "frase_ingles": "I'm running a little late.",
+    "traducao": "Estou um pouco atrasado."
+  },
+  {
+    "id": 25,
+    "frase_ingles": "I need to get going.",
+    "traducao": "Preciso ir."
+  },
+  {
+    "id": 26,
+    "frase_ingles": "I'll get there in about twenty minutes.",
+    "traducao": "Vou chegar lá em cerca de vinte minutos."
+  },
+  {
+    "id": 27,
+    "frase_ingles": "What time do you usually get home?",
+    "traducao": "Que horas você geralmente chega em casa?"
+  },
+  {
+    "id": 28,
+    "frase_ingles": "I got home completely exhausted.",
+    "traducao": "Cheguei em casa completamente exausto."
+  },
+  {
+    "id": 29,
+    "frase_ingles": "I need to get some sleep tonight.",
+    "traducao": "Preciso dormir um pouco hoje à noite."
+  },
+  {
+    "id": 30,
+    "frase_ingles": "I'm getting used to my new schedule.",
+    "traducao": "Estou me acostumando com meu novo horário."
+  },
+  {
+    "id": 31,
+    "frase_ingles": "It's getting late, so I should head home.",
+    "traducao": "Está ficando tarde, então eu deveria ir para casa."
+  },
+  {
+    "id": 32,
+    "frase_ingles": "I'm getting hungry.",
+    "traducao": "Estou ficando com fome."
+  },
+  {
+    "id": 33,
+    "frase_ingles": "I'm getting tired of this.",
+    "traducao": "Estou ficando cansado disso."
+  },
+  {
+    "id": 34,
+    "frase_ingles": "I need to get some groceries.",
+    "traducao": "Preciso comprar algumas coisas no mercado."
+  },
+  {
+    "id": 35,
+    "frase_ingles": "Can you get me a bottle of water?",
+    "traducao": "Pode pegar uma garrafa de água para mim?"
+  },
+  {
+    "id": 36,
+    "frase_ingles": "I'll get back to you later.",
+    "traducao": "Eu retorno para você mais tarde."
+  },
+  {
+    "id": 37,
+    "frase_ingles": "I'll get back to you as soon as I can.",
+    "traducao": "Vou retornar assim que puder."
+  },
+  {
+    "id": 38,
+    "frase_ingles": "Did you get what I meant?",
+    "traducao": "Você entendeu o que eu quis dizer?"
+  },
+  {
+    "id": 39,
+    "frase_ingles": "I didn't quite get that.",
+    "traducao": "Não entendi muito bem isso."
+  },
+  {
+    "id": 40,
+    "frase_ingles": "I'm starting to get the hang of it.",
+    "traducao": "Estou começando a pegar o jeito."
+  },
+  {
+    "id": 41,
+    "frase_ingles": "I need to get this done today.",
+    "traducao": "Preciso terminar isso hoje."
+  },
+  {
+    "id": 42,
+    "frase_ingles": "Let's get things moving.",
+    "traducao": "Vamos fazer as coisas andarem."
+  },
+  {
+    "id": 43,
+    "frase_ingles": "I can't get this thing to work.",
+    "traducao": "Não consigo fazer isso funcionar."
+  },
+  {
+    "id": 44,
+    "frase_ingles": "How did you get into this business?",
+    "traducao": "Como você entrou nesse ramo?"
+  },
+  {
+    "id": 45,
+    "frase_ingles": "I got stuck in traffic.",
+    "traducao": "Fiquei preso no trânsito."
+  },
+  {
+    "id": 46,
+    "frase_ingles": "I got caught in the rain.",
+    "traducao": "Fui pego pela chuva."
+  },
+  {
+    "id": 47,
+    "frase_ingles": "I got a flat tire on the way here.",
+    "traducao": "Tive um pneu furado no caminho para cá."
+  },
+  {
+    "id": 48,
+    "frase_ingles": "I need to get my car checked.",
+    "traducao": "Preciso levar meu carro para verificar."
+  },
+  {
+    "id": 49,
+    "frase_ingles": "How much did you get paid?",
+    "traducao": "Quanto você recebeu?"
+  },
+  {
+    "id": 50,
+    "frase_ingles": "I finally got the job.",
+    "traducao": "Finalmente consegui o emprego."
+  },
+  {
+    "id": 51,
+    "frase_ingles": "Turn the lights off when you leave.",
+    "traducao": "Apague as luzes quando sair."
+  },
+  {
+    "id": 52,
+    "frase_ingles": "Can you turn the air conditioning down?",
+    "traducao": "Pode diminuir o ar-condicionado?"
+  },
+  {
+    "id": 53,
+    "frase_ingles": "I'm looking for my keys.",
+    "traducao": "Estou procurando minhas chaves."
+  },
+  {
+    "id": 54,
+    "frase_ingles": "I can't find my wallet anywhere.",
+    "traducao": "Não consigo encontrar minha carteira em lugar nenhum."
+  },
+  {
+    "id": 55,
+    "frase_ingles": "Can you pick me up after work?",
+    "traducao": "Pode me buscar depois do trabalho?"
+  },
+  {
+    "id": 56,
+    "frase_ingles": "I'll pick up some food on the way home.",
+    "traducao": "Vou pegar/comprar comida no caminho para casa."
+  },
+  {
+    "id": 57,
+    "frase_ingles": "Don't forget to pick up the package.",
+    "traducao": "Não se esqueça de pegar a encomenda."
+  },
+  {
+    "id": 58,
+    "frase_ingles": "I need to drop off these documents.",
+    "traducao": "Preciso entregar/deixar estes documentos."
+  },
+  {
+    "id": 59,
+    "frase_ingles": "Can you drop me off at the station?",
+    "traducao": "Pode me deixar na estação?"
+  },
+  {
+    "id": 60,
+    "frase_ingles": "I'll call you back in a few minutes.",
+    "traducao": "Vou ligar de volta em alguns minutos."
+  },
+  {
+    "id": 61,
+    "frase_ingles": "I'll text you when I arrive.",
+    "traducao": "Vou mandar mensagem quando chegar."
+  },
+  {
+    "id": 62,
+    "frase_ingles": "Can you look into this problem?",
+    "traducao": "Pode investigar esse problema?"
+  },
+  {
+    "id": 63,
+    "frase_ingles": "I'll look into it and let you know.",
+    "traducao": "Vou verificar isso e aviso você."
+  },
+  {
+    "id": 64,
+    "frase_ingles": "We need to figure out what's wrong.",
+    "traducao": "Precisamos descobrir o que está errado."
+  },
+  {
+    "id": 65,
+    "frase_ingles": "I'll figure it out.",
+    "traducao": "Vou descobrir como resolver."
+  },
+  {
+    "id": 66,
+    "frase_ingles": "Let's sort this out.",
+    "traducao": "Vamos resolver isso."
+  },
+  {
+    "id": 67,
+    "frase_ingles": "We need to work this out.",
+    "traducao": "Precisamos resolver isso."
+  },
+  {
+    "id": 68,
+    "frase_ingles": "I don't want to put it off anymore.",
+    "traducao": "Não quero mais adiar isso."
+  },
+  {
+    "id": 69,
+    "frase_ingles": "Let's go over the details.",
+    "traducao": "Vamos revisar os detalhes."
+  },
+  {
+    "id": 70,
+    "frase_ingles": "Can we go over this again?",
+    "traducao": "Podemos revisar isso novamente?"
+  },
+  {
+    "id": 71,
+    "frase_ingles": "I'll bring it up at the meeting.",
+    "traducao": "Vou levantar esse assunto na reunião."
+  },
+  {
+    "id": 72,
+    "frase_ingles": "I need to catch up on some work.",
+    "traducao": "Preciso colocar alguns trabalhos em dia."
+  },
+  {
+    "id": 73,
+    "frase_ingles": "I'm falling behind on my tasks.",
+    "traducao": "Estou ficando atrasado nas minhas tarefas."
+  },
+  {
+    "id": 74,
+    "frase_ingles": "Let's wrap this up.",
+    "traducao": "Vamos finalizar isso."
+  },
+  {
+    "id": 75,
+    "frase_ingles": "I'll take care of it.",
+    "traducao": "Eu cuido disso."
+  },
+  {
+    "id": 76,
+    "frase_ingles": "Can you handle this?",
+    "traducao": "Você consegue cuidar disso?"
+  },
+  {
+    "id": 77,
+    "frase_ingles": "I'll deal with it later.",
+    "traducao": "Vou lidar com isso mais tarde."
+  },
+  {
+    "id": 78,
+    "frase_ingles": "We ran out of time.",
+    "traducao": "Ficamos sem tempo."
+  },
+  {
+    "id": 79,
+    "frase_ingles": "We're running out of options.",
+    "traducao": "Estamos ficando sem opções."
+  },
+  {
+    "id": 80,
+    "frase_ingles": "Let's move on to the next topic.",
+    "traducao": "Vamos passar para o próximo assunto."
+  },
+  {
+    "id": 81,
+    "frase_ingles": "Could you give me a hand?",
+    "traducao": "Você poderia me dar uma ajuda?"
+  },
+  {
+    "id": 82,
+    "frase_ingles": "Can you give me a heads-up?",
+    "traducao": "Pode me avisar com antecedência?"
+  },
+  {
+    "id": 83,
+    "frase_ingles": "Keep me posted.",
+    "traducao": "Mantenha-me informado."
+  },
+  {
+    "id": 84,
+    "frase_ingles": "I'll keep you in the loop.",
+    "traducao": "Vou manter você informado."
+  },
+  {
+    "id": 85,
+    "frase_ingles": "Let's touch base tomorrow.",
+    "traducao": "Vamos conversar rapidamente amanhã para alinhar as coisas."
+  },
+  {
+    "id": 86,
+    "frase_ingles": "I'm tied up right now.",
+    "traducao": "Estou ocupado agora."
+  },
+  {
+    "id": 87,
+    "frase_ingles": "I'm swamped with work.",
+    "traducao": "Estou atolado de trabalho."
+  },
+  {
+    "id": 88,
+    "frase_ingles": "I'm slammed today.",
+    "traducao": "Estou lotado de trabalho hoje."
+  },
+  {
+    "id": 89,
+    "frase_ingles": "Can we push the meeting back?",
+    "traducao": "Podemos adiar a reunião?"
+  },
+  {
+    "id": 90,
+    "frase_ingles": "Can we move the meeting up?",
+    "traducao": "Podemos antecipar a reunião?"
+  },
+  {
+    "id": 91,
+    "frase_ingles": "I'm on a tight deadline.",
+    "traducao": "Estou com um prazo apertado."
+  },
+  {
+    "id": 92,
+    "frase_ingles": "We're right on schedule.",
+    "traducao": "Estamos exatamente dentro do cronograma."
+  },
+  {
+    "id": 93,
+    "frase_ingles": "We're behind schedule.",
+    "traducao": "Estamos atrasados em relação ao cronograma."
+  },
+  {
+    "id": 94,
+    "frase_ingles": "I'll send over the files.",
+    "traducao": "Vou enviar os arquivos."
+  },
+  {
+    "id": 95,
+    "frase_ingles": "Can you send me the updated version?",
+    "traducao": "Pode me enviar a versão atualizada?"
+  },
+  {
+    "id": 96,
+    "frase_ingles": "The deadline is coming up.",
+    "traducao": "O prazo está se aproximando."
+  },
+  {
+    "id": 97,
+    "frase_ingles": "I'll get it done by Friday.",
+    "traducao": "Vou terminar isso até sexta-feira."
+  },
+  {
+    "id": 98,
+    "frase_ingles": "That's not really my call.",
+    "traducao": "Essa decisão não cabe a mim."
+  },
+  {
+    "id": 99,
+    "frase_ingles": "I'll run it by my manager.",
+    "traducao": "Vou verificar isso com meu gerente."
+  },
+  {
+    "id": 100,
+    "frase_ingles": "Let's keep it simple.",
+    "traducao": "Vamos manter as coisas simples."
+  },
+  {
+    "id": 101,
+    "frase_ingles": "How much is this going for?",
+    "traducao": "Por quanto isso está sendo vendido?"
+  },
+  {
+    "id": 102,
+    "frase_ingles": "Is there any room for negotiation?",
+    "traducao": "Existe espaço para negociação?"
+  },
+  {
+    "id": 103,
+    "frase_ingles": "Can you do any better on the price?",
+    "traducao": "Pode melhorar um pouco o preço?"
+  },
+  {
+    "id": 104,
+    "frase_ingles": "I'm just browsing.",
+    "traducao": "Estou só dando uma olhada."
+  },
+  {
+    "id": 105,
+    "frase_ingles": "I'm looking for something affordable.",
+    "traducao": "Estou procurando algo acessível."
+  },
+  {
+    "id": 106,
+    "frase_ingles": "Do you have anything cheaper?",
+    "traducao": "Você tem algo mais barato?"
+  },
+  {
+    "id": 107,
+    "frase_ingles": "Is this on sale?",
+    "traducao": "Isso está em promoção?"
+  },
+  {
+    "id": 108,
+    "frase_ingles": "Can I get a refund?",
+    "traducao": "Posso receber um reembolso?"
+  },
+  {
+    "id": 109,
+    "frase_ingles": "I'd like to exchange this.",
+    "traducao": "Gostaria de trocar isso."
+  },
+  {
+    "id": 110,
+    "frase_ingles": "Do you have this in stock?",
+    "traducao": "Vocês têm isso em estoque?"
+  },
+  {
+    "id": 111,
+    "frase_ingles": "When will it be back in stock?",
+    "traducao": "Quando estará disponível novamente?"
+  },
+  {
+    "id": 112,
+    "frase_ingles": "Can I pay in installments?",
+    "traducao": "Posso pagar parcelado?"
+  },
+  {
+    "id": 113,
+    "frase_ingles": "Do you take contactless payments?",
+    "traducao": "Vocês aceitam pagamento por aproximação?"
+  },
+  {
+    "id": 114,
+    "frase_ingles": "I think I was charged twice.",
+    "traducao": "Acho que fui cobrado duas vezes."
+  },
+  {
+    "id": 115,
+    "frase_ingles": "Could I get a receipt?",
+    "traducao": "Poderia me dar um recibo?"
+  },
+  {
+    "id": 116,
+    "frase_ingles": "Where can I find the dairy section?",
+    "traducao": "Onde fica a seção de laticínios?"
+  },
+  {
+    "id": 117,
+    "frase_ingles": "I'm running low on coffee.",
+    "traducao": "Meu café está acabando."
+  },
+  {
+    "id": 118,
+    "frase_ingles": "We're out of eggs.",
+    "traducao": "Os ovos acabaram."
+  },
+  {
+    "id": 119,
+    "frase_ingles": "I need to stock up on groceries.",
+    "traducao": "Preciso abastecer a despensa com mantimentos."
+  },
+  {
+    "id": 120,
+    "frase_ingles": "Can you grab some bread?",
+    "traducao": "Pode pegar/comprar pão?"
+  },
+  {
+    "id": 121,
+    "frase_ingles": "Do you mind if I sit here?",
+    "traducao": "Você se importa se eu sentar aqui?"
+  },
+  {
+    "id": 122,
+    "frase_ingles": "Is anyone sitting here?",
+    "traducao": "Tem alguém sentado aqui?"
+  },
+  {
+    "id": 123,
+    "frase_ingles": "Could I get this to go?",
+    "traducao": "Pode preparar isso para viagem?"
+  },
+  {
+    "id": 124,
+    "frase_ingles": "Can I get that without cheese?",
+    "traducao": "Pode fazer isso sem queijo?"
+  },
+  {
+    "id": 125,
+    "frase_ingles": "I'll have whatever you're having.",
+    "traducao": "Vou querer o mesmo que você."
+  },
+  {
+    "id": 126,
+    "frase_ingles": "What do you recommend?",
+    "traducao": "O que você recomenda?"
+  },
+  {
+    "id": 127,
+    "frase_ingles": "What's good here?",
+    "traducao": "O que é bom aqui?"
+  },
+  {
+    "id": 128,
+    "frase_ingles": "Could we get another round?",
+    "traducao": "Podemos pedir mais uma rodada?"
+  },
+  {
+    "id": 129,
+    "frase_ingles": "We're ready to order.",
+    "traducao": "Estamos prontos para pedir."
+  },
+  {
+    "id": 130,
+    "frase_ingles": "Can we get the check?",
+    "traducao": "Pode trazer a conta?"
+  },
+  {
+    "id": 131,
+    "frase_ingles": "Can we split the bill?",
+    "traducao": "Podemos dividir a conta?"
+  },
+  {
+    "id": 132,
+    "frase_ingles": "I'll get this one.",
+    "traducao": "Eu pago essa."
+  },
+  {
+    "id": 133,
+    "frase_ingles": "It's on me.",
+    "traducao": "Eu pago."
+  },
+  {
+    "id": 134,
+    "frase_ingles": "The food was amazing.",
+    "traducao": "A comida estava incrível."
+  },
+  {
+    "id": 135,
+    "frase_ingles": "This place is packed.",
+    "traducao": "Este lugar está lotado."
+  },
+  {
+    "id": 136,
+    "frase_ingles": "Do you have a table for two?",
+    "traducao": "Vocês têm uma mesa para duas pessoas?"
+  },
+  {
+    "id": 137,
+    "frase_ingles": "How long is the wait?",
+    "traducao": "Quanto tempo é a espera?"
+  },
+  {
+    "id": 138,
+    "frase_ingles": "Can we sit outside?",
+    "traducao": "Podemos sentar do lado de fora?"
+  },
+  {
+    "id": 139,
+    "frase_ingles": "Could I have some extra sauce?",
+    "traducao": "Poderia trazer um pouco de molho extra?"
+  },
+  {
+    "id": 140,
+    "frase_ingles": "I'll pass on dessert.",
+    "traducao": "Vou deixar a sobremesa."
+  },
+  {
+    "id": 141,
+    "frase_ingles": "Is there a shortcut?",
+    "traducao": "Existe um caminho mais curto?"
+  },
+  {
+    "id": 142,
+    "frase_ingles": "How long will it take to get there?",
+    "traducao": "Quanto tempo vai levar para chegar lá?"
+  },
+  {
+    "id": 143,
+    "frase_ingles": "What's the fastest way to get there?",
+    "traducao": "Qual é a maneira mais rápida de chegar lá?"
+  },
+  {
+    "id": 144,
+    "frase_ingles": "I think we missed the exit.",
+    "traducao": "Acho que perdemos a saída."
+  },
+  {
+    "id": 145,
+    "frase_ingles": "Can you pull over here?",
+    "traducao": "Pode parar aqui?"
+  },
+  {
+    "id": 146,
+    "frase_ingles": "I'll drop you off here.",
+    "traducao": "Vou deixar você aqui."
+  },
+  {
+    "id": 147,
+    "frase_ingles": "I'll pick you up at the entrance.",
+    "traducao": "Vou buscar você na entrada."
+  },
+  {
+    "id": 148,
+    "frase_ingles": "Traffic is terrible today.",
+    "traducao": "O trânsito está terrível hoje."
+  },
+  {
+    "id": 149,
+    "frase_ingles": "There's a lot of traffic on the highway.",
+    "traducao": "Tem muito trânsito na rodovia."
+  },
+  {
+    "id": 150,
+    "frase_ingles": "I got lost on the way here.",
+    "traducao": "Eu me perdi no caminho para cá."
+  },
+  {
+    "id": 151,
+    "frase_ingles": "Is there parking nearby?",
+    "traducao": "Tem estacionamento por perto?"
+  },
+  {
+    "id": 152,
+    "frase_ingles": "Where can I park?",
+    "traducao": "Onde posso estacionar?"
+  },
+  {
+    "id": 153,
+    "frase_ingles": "The parking lot is full.",
+    "traducao": "O estacionamento está lotado."
+  },
+  {
+    "id": 154,
+    "frase_ingles": "I'll take the next exit.",
+    "traducao": "Vou pegar a próxima saída."
+  },
+  {
+    "id": 155,
+    "frase_ingles": "We're almost there.",
+    "traducao": "Estamos quase chegando."
+  },
+  {
+    "id": 156,
+    "frase_ingles": "I'll be there in a sec.",
+    "traducao": "Já chego aí."
+  },
+  {
+    "id": 157,
+    "frase_ingles": "Give me a heads-up when you arrive.",
+    "traducao": "Me avise quando chegar."
+  },
+  {
+    "id": 158,
+    "frase_ingles": "Text me when you get there.",
+    "traducao": "Mande mensagem quando chegar lá."
+  },
+  {
+    "id": 159,
+    "frase_ingles": "Let me know if anything changes.",
+    "traducao": "Me avise se alguma coisa mudar."
+  },
+  {
+    "id": 160,
+    "frase_ingles": "I'll keep you posted.",
+    "traducao": "Vou manter você informado."
+  },
+  {
+    "id": 161,
+    "frase_ingles": "My phone is about to die.",
+    "traducao": "Meu celular está quase sem bateria."
+  },
+  {
+    "id": 162,
+    "frase_ingles": "Do you have a charger?",
+    "traducao": "Você tem um carregador?"
+  },
+  {
+    "id": 163,
+    "frase_ingles": "My battery is running low.",
+    "traducao": "Minha bateria está acabando."
+  },
+  {
+    "id": 164,
+    "frase_ingles": "The Wi-Fi keeps cutting out.",
+    "traducao": "O Wi-Fi fica caindo."
+  },
+  {
+    "id": 165,
+    "frase_ingles": "What's the Wi-Fi password?",
+    "traducao": "Qual é a senha do Wi-Fi?"
+  },
+  {
+    "id": 166,
+    "frase_ingles": "The app keeps crashing.",
+    "traducao": "O aplicativo fica travando."
+  },
+  {
+    "id": 167,
+    "frase_ingles": "My computer is acting up.",
+    "traducao": "Meu computador está dando problema."
+  },
+  {
+    "id": 168,
+    "frase_ingles": "Can you send me the link?",
+    "traducao": "Pode me enviar o link?"
+  },
+  {
+    "id": 169,
+    "frase_ingles": "I'll forward the email to you.",
+    "traducao": "Vou encaminhar o e-mail para você."
+  },
+  {
+    "id": 170,
+    "frase_ingles": "Check your inbox.",
+    "traducao": "Verifique sua caixa de entrada."
+  },
+  {
+    "id": 171,
+    "frase_ingles": "I haven't checked my messages yet.",
+    "traducao": "Ainda não verifiquei minhas mensagens."
+  },
+  {
+    "id": 172,
+    "frase_ingles": "I'll send you the details.",
+    "traducao": "Vou enviar os detalhes para você."
+  },
+  {
+    "id": 173,
+    "frase_ingles": "Can you screenshot it?",
+    "traducao": "Pode tirar um print disso?"
+  },
+  {
+    "id": 174,
+    "frase_ingles": "I'll look it up.",
+    "traducao": "Vou pesquisar isso."
+  },
+  {
+    "id": 175,
+    "frase_ingles": "I looked it up online.",
+    "traducao": "Pesquisei isso na internet."
+  },
+  {
+    "id": 176,
+    "frase_ingles": "That's a good deal.",
+    "traducao": "Esse é um bom negócio/preço."
+  },
+  {
+    "id": 177,
+    "frase_ingles": "That's a rip-off.",
+    "traducao": "Isso é um roubo. / Isso está muito caro."
+  },
+  {
+    "id": 178,
+    "frase_ingles": "It's worth it.",
+    "traducao": "Vale a pena."
+  },
+  {
+    "id": 179,
+    "frase_ingles": "It's not worth the money.",
+    "traducao": "Não vale o dinheiro."
+  },
+  {
+    "id": 180,
+    "frase_ingles": "I'm short on cash.",
+    "traducao": "Estou com pouco dinheiro em espécie."
+  },
+  {
+    "id": 181,
+    "frase_ingles": "I'm broke right now.",
+    "traducao": "Estou sem dinheiro agora."
+  },
+  {
+    "id": 182,
+    "frase_ingles": "I need to cut back on expenses.",
+    "traducao": "Preciso reduzir os gastos."
+  },
+  {
+    "id": 183,
+    "frase_ingles": "I'm trying to save some money.",
+    "traducao": "Estou tentando economizar dinheiro."
+  },
+  {
+    "id": 184,
+    "frase_ingles": "How much do I owe you?",
+    "traducao": "Quanto eu te devo?"
+  },
+  {
+    "id": 185,
+    "frase_ingles": "I'll pay you back tomorrow.",
+    "traducao": "Eu te pago amanhã."
+  },
+  {
+    "id": 186,
+    "frase_ingles": "Can you spot me twenty bucks?",
+    "traducao": "Pode me emprestar vinte dólares?"
+  },
+  {
+    "id": 187,
+    "frase_ingles": "I'll cover the bill.",
+    "traducao": "Eu pago a conta."
+  },
+  {
+    "id": 188,
+    "frase_ingles": "We're splitting the cost.",
+    "traducao": "Vamos dividir o custo."
+  },
+  {
+    "id": 189,
+    "frase_ingles": "That's a bit pricey.",
+    "traducao": "Isso está meio caro."
+  },
+  {
+    "id": 190,
+    "frase_ingles": "Can you give me a better deal?",
+    "traducao": "Pode fazer um preço melhor?"
+  },
+  {
+    "id": 191,
+    "frase_ingles": "I'm beat.",
+    "traducao": "Estou acabado de cansado."
+  },
+  {
+    "id": 192,
+    "frase_ingles": "I'm wiped out.",
+    "traducao": "Estou completamente exausto."
+  },
+  {
+    "id": 193,
+    "frase_ingles": "I'm starving.",
+    "traducao": "Estou morrendo de fome."
+  },
+  {
+    "id": 194,
+    "frase_ingles": "I'm stuffed.",
+    "traducao": "Estou cheio."
+  },
+  {
+    "id": 195,
+    "frase_ingles": "I'm freezing.",
+    "traducao": "Estou morrendo de frio."
+  },
+  {
+    "id": 196,
+    "frase_ingles": "I'm boiling.",
+    "traducao": "Estou morrendo de calor."
+  },
+  {
+    "id": 197,
+    "frase_ingles": "I'm not feeling great.",
+    "traducao": "Não estou me sentindo muito bem."
+  },
+  {
+    "id": 198,
+    "frase_ingles": "I need to take it easy.",
+    "traducao": "Preciso pegar leve."
+  },
+  {
+    "id": 199,
+    "frase_ingles": "I could use some rest.",
+    "traducao": "Eu poderia descansar um pouco."
+  },
+  {
+    "id": 200,
+    "frase_ingles": "I need to recharge.",
+    "traducao": "Preciso recarregar as energias."
+  },
+  {
+    "id": 201,
+    "frase_ingles": "I'm feeling much better now.",
+    "traducao": "Estou me sentindo muito melhor agora."
+  },
+  {
+    "id": 202,
+    "frase_ingles": "I've got a headache.",
+    "traducao": "Estou com dor de cabeça."
+  },
+  {
+    "id": 203,
+    "frase_ingles": "My back is killing me.",
+    "traducao": "Minha coluna está me matando de dor."
+  },
+  {
+    "id": 204,
+    "frase_ingles": "I think I'm coming down with something.",
+    "traducao": "Acho que estou ficando doente."
+  },
+  {
+    "id": 205,
+    "frase_ingles": "I need to make an appointment.",
+    "traducao": "Preciso marcar uma consulta."
+  },
+  {
+    "id": 206,
+    "frase_ingles": "Do you have anything for a sore throat?",
+    "traducao": "Você tem algo para dor de garganta?"
+  },
+  {
+    "id": 207,
+    "frase_ingles": "I need something for this cough.",
+    "traducao": "Preciso de algo para essa tosse."
+  },
+  {
+    "id": 208,
+    "frase_ingles": "How often should I take it?",
+    "traducao": "Com que frequência devo tomar isso?"
+  },
+  {
+    "id": 209,
+    "frase_ingles": "Are there any side effects?",
+    "traducao": "Existem efeitos colaterais?"
+  },
+  {
+    "id": 210,
+    "frase_ingles": "I need to get some fresh air.",
+    "traducao": "Preciso tomar um pouco de ar fresco."
+  },
+  {
+    "id": 211,
+    "frase_ingles": "What are you up to this weekend?",
+    "traducao": "O que você vai fazer neste fim de semana?"
+  },
+  {
+    "id": 212,
+    "frase_ingles": "Wanna hang out later?",
+    "traducao": "Quer sair/passar um tempo juntos mais tarde?"
+  },
+  {
+    "id": 213,
+    "frase_ingles": "Let's grab a drink.",
+    "traducao": "Vamos tomar alguma coisa."
+  },
+  {
+    "id": 214,
+    "frase_ingles": "Do you wanna grab some food?",
+    "traducao": "Quer comer alguma coisa?"
+  },
+  {
+    "id": 215,
+    "frase_ingles": "I'm down.",
+    "traducao": "Eu topo."
+  },
+  {
+    "id": 216,
+    "frase_ingles": "I'm in.",
+    "traducao": "Estou dentro."
+  },
+  {
+    "id": 217,
+    "frase_ingles": "Count me in.",
+    "traducao": "Pode contar comigo."
+  },
+  {
+    "id": 218,
+    "frase_ingles": "I'm out.",
+    "traducao": "Estou fora."
+  },
+  {
+    "id": 219,
+    "frase_ingles": "Maybe next time.",
+    "traducao": "Talvez na próxima."
+  },
+  {
+    "id": 220,
+    "frase_ingles": "I'm not really feeling it tonight.",
+    "traducao": "Não estou muito a fim hoje à noite."
+  },
+  {
+    "id": 221,
+    "frase_ingles": "Let's call it a night.",
+    "traducao": "Vamos encerrar por hoje."
+  },
+  {
+    "id": 222,
+    "frase_ingles": "We should head out.",
+    "traducao": "É melhor irmos embora."
+  },
+  {
+    "id": 223,
+    "frase_ingles": "Let's head over there.",
+    "traducao": "Vamos para lá."
+  },
+  {
+    "id": 224,
+    "frase_ingles": "I'll catch up with you later.",
+    "traducao": "Falo com você mais tarde."
+  },
+  {
+    "id": 225,
+    "frase_ingles": "Catch you later.",
+    "traducao": "Até mais."
+  },
+  {
+    "id": 226,
+    "frase_ingles": "See you around.",
+    "traducao": "A gente se vê por aí."
+  },
+  {
+    "id": 227,
+    "frase_ingles": "Take care of yourself.",
+    "traducao": "Cuide-se."
+  },
+  {
+    "id": 228,
+    "frase_ingles": "Have a good one.",
+    "traducao": "Tenha um bom dia. / Tudo de bom."
+  },
+  {
+    "id": 229,
+    "frase_ingles": "Take it easy.",
+    "traducao": "Vai com calma. / Se cuida."
+  },
+  {
+    "id": 230,
+    "frase_ingles": "My bad.",
+    "traducao": "Foi mal. / Foi culpa minha."
+  },
+  {
+    "id": 231,
+    "frase_ingles": "No big deal.",
+    "traducao": "Não é nada demais."
+  },
+  {
+    "id": 232,
+    "frase_ingles": "No worries.",
+    "traducao": "Sem problema."
+  },
+  {
+    "id": 233,
+    "frase_ingles": "Never mind.",
+    "traducao": "Deixa pra lá."
+  },
+  {
+    "id": 234,
+    "frase_ingles": "Don't sweat it.",
+    "traducao": "Não esquenta com isso."
+  },
+  {
+    "id": 235,
+    "frase_ingles": "It's all good.",
+    "traducao": "Está tudo bem."
+  },
+  {
+    "id": 236,
+    "frase_ingles": "Fair enough.",
+    "traducao": "Justo. / Entendo seu ponto."
+  },
+  {
+    "id": 237,
+    "frase_ingles": "That makes sense.",
+    "traducao": "Isso faz sentido."
+  },
+  {
+    "id": 238,
+    "frase_ingles": "That doesn't add up.",
+    "traducao": "Isso não faz sentido. / As contas não batem."
+  },
+  {
+    "id": 239,
+    "frase_ingles": "You have a point.",
+    "traducao": "Você tem razão em um ponto."
+  },
+  {
+    "id": 240,
+    "frase_ingles": "I see what you mean.",
+    "traducao": "Entendo o que você quer dizer."
+  },
+  {
+    "id": 241,
+    "frase_ingles": "Exactly.",
+    "traducao": "Exatamente."
+  },
+  {
+    "id": 242,
+    "frase_ingles": "Absolutely.",
+    "traducao": "Com certeza."
+  },
+  {
+    "id": 243,
+    "frase_ingles": "Not really.",
+    "traducao": "Não muito."
+  },
+  {
+    "id": 244,
+    "frase_ingles": "It depends.",
+    "traducao": "Depende."
+  },
+  {
+    "id": 245,
+    "frase_ingles": "We'll see.",
+    "traducao": "Vamos ver."
+  },
+  {
+    "id": 246,
+    "frase_ingles": "We'll figure it out.",
+    "traducao": "Vamos dar um jeito."
+  },
+  {
+    "id": 247,
+    "frase_ingles": "It is what it is.",
+    "traducao": "É o que é. / Não há muito o que fazer."
+  },
+  {
+    "id": 248,
+    "frase_ingles": "Whatever works for you.",
+    "traducao": "O que funcionar para você."
+  },
+  {
+    "id": 249,
+    "frase_ingles": "It's up to you.",
+    "traducao": "Você decide."
+  },
+  {
+    "id": 250,
+    "frase_ingles": "You got me there.",
+    "traducao": "Nessa você me pegou."
+  },
+  {
+    "id": 251,
+    "frase_ingles": "You've got a point.",
+    "traducao": "Você tem um ponto."
+  },
+  {
+    "id": 252,
+    "frase_ingles": "I have no clue.",
+    "traducao": "Não faço ideia."
+  },
+  {
+    "id": 253,
+    "frase_ingles": "I have no idea what's going on.",
+    "traducao": "Não faço ideia do que está acontecendo."
+  },
+  {
+    "id": 254,
+    "frase_ingles": "It slipped my mind.",
+    "traducao": "Esqueci completamente."
+  },
+  {
+    "id": 255,
+    "frase_ingles": "I totally forgot about it.",
+    "traducao": "Esqueci completamente disso."
+  },
+  {
+    "id": 256,
+    "frase_ingles": "It slipped my mind, sorry.",
+    "traducao": "Esqueci completamente, desculpa."
+  },
+  {
+    "id": 257,
+    "frase_ingles": "Give me a sec.",
+    "traducao": "Me dá um segundo."
+  },
+  {
+    "id": 258,
+    "frase_ingles": "Hang on a second.",
+    "traducao": "Espera um segundo."
+  },
+  {
+    "id": 259,
+    "frase_ingles": "Bear with me.",
+    "traducao": "Tenha um pouco de paciência comigo."
+  },
+  {
+    "id": 260,
+    "frase_ingles": "Take your time.",
+    "traducao": "Não tenha pressa."
+  },
+  {
+    "id": 261,
+    "frase_ingles": "No rush.",
+    "traducao": "Sem pressa."
+  },
+  {
+    "id": 262,
+    "frase_ingles": "Whenever you're ready.",
+    "traducao": "Quando você estiver pronto."
+  },
+  {
+    "id": 263,
+    "frase_ingles": "Go for it.",
+    "traducao": "Manda ver."
+  },
+  {
+    "id": 264,
+    "frase_ingles": "Why not?",
+    "traducao": "Por que não?"
+  },
+  {
+    "id": 265,
+    "frase_ingles": "Knock yourself out.",
+    "traducao": "Fique à vontade. / Pode fazer."
+  },
+  {
+    "id": 266,
+    "frase_ingles": "Help yourself.",
+    "traducao": "Sirva-se. / Fique à vontade."
+  },
+  {
+    "id": 267,
+    "frase_ingles": "After you.",
+    "traducao": "Depois de você."
+  },
+  {
+    "id": 268,
+    "frase_ingles": "Be my guest.",
+    "traducao": "Fique à vontade."
+  },
+  {
+    "id": 269,
+    "frase_ingles": "You bet.",
+    "traducao": "Com certeza. / Pode apostar."
+  },
+  {
+    "id": 270,
+    "frase_ingles": "Sure thing.",
+    "traducao": "Claro. / Pode deixar."
+  },
+  {
+    "id": 271,
+    "frase_ingles": "Sounds good.",
+    "traducao": "Parece bom."
+  },
+  {
+    "id": 272,
+    "frase_ingles": "Works for me.",
+    "traducao": "Por mim, está ótimo."
+  },
+  {
+    "id": 273,
+    "frase_ingles": "I'm good with that.",
+    "traducao": "Por mim, tudo bem."
+  },
+  {
+    "id": 274,
+    "frase_ingles": "I'm not sure about that.",
+    "traducao": "Não tenho certeza sobre isso."
+  },
+  {
+    "id": 275,
+    "frase_ingles": "I'm not convinced.",
+    "traducao": "Não estou convencido."
+  },
+  {
+    "id": 276,
+    "frase_ingles": "You never know.",
+    "traducao": "Nunca se sabe."
+  },
+  {
+    "id": 277,
+    "frase_ingles": "For real?",
+    "traducao": "Sério?"
+  },
+  {
+    "id": 278,
+    "frase_ingles": "Seriously?",
+    "traducao": "Sério?"
+  },
+  {
+    "id": 279,
+    "frase_ingles": "Are you kidding me?",
+    "traducao": "Você está brincando comigo?"
+  },
+  {
+    "id": 280,
+    "frase_ingles": "No way!",
+    "traducao": "Não acredito! / De jeito nenhum!"
+  },
+  {
+    "id": 281,
+    "frase_ingles": "You're kidding!",
+    "traducao": "Você está brincando!"
+  },
+  {
+    "id": 282,
+    "frase_ingles": "That's crazy!",
+    "traducao": "Isso é loucura!"
+  },
+  {
+    "id": 283,
+    "frase_ingles": "That's wild!",
+    "traducao": "Isso é doido!"
+  },
+  {
+    "id": 284,
+    "frase_ingles": "That's awesome!",
+    "traducao": "Isso é incrível!"
+  },
+  {
+    "id": 285,
+    "frase_ingles": "That's sick!",
+    "traducao": "Isso é muito irado!"
+  },
+  {
+    "id": 286,
+    "frase_ingles": "That's legit.",
+    "traducao": "Isso é de verdade. / Isso é muito bom."
+  },
+  {
+    "id": 287,
+    "frase_ingles": "That's pretty cool.",
+    "traducao": "Isso é bem legal."
+  },
+  {
+    "id": 288,
+    "frase_ingles": "I'm just messing with you.",
+    "traducao": "Estou só zoando você."
+  },
+  {
+    "id": 289,
+    "frase_ingles": "I'm just kidding.",
+    "traducao": "Estou só brincando."
+  },
+  {
+    "id": 290,
+    "frase_ingles": "Chill out.",
+    "traducao": "Relaxa."
+  },
+  {
+    "id": 291,
+    "frase_ingles": "Calm down, it's not a big deal.",
+    "traducao": "Calma, não é nada demais."
+  },
+  {
+    "id": 292,
+    "frase_ingles": "What's the deal?",
+    "traducao": "Qual é a situação? / O que está acontecendo?"
+  },
+  {
+    "id": 293,
+    "frase_ingles": "What's the point?",
+    "traducao": "Qual é o sentido?"
+  },
+  {
+    "id": 294,
+    "frase_ingles": "What's up with that?",
+    "traducao": "Qual é a desse negócio? / O que está acontecendo com isso?"
+  },
+  {
+    "id": 295,
+    "frase_ingles": "I'm not buying it.",
+    "traducao": "Não estou acreditando nisso."
+  },
+  {
+    "id": 296,
+    "frase_ingles": "That's on me.",
+    "traducao": "A culpa é minha."
+  },
+  {
+    "id": 297,
+    "frase_ingles": "My bad, I forgot.",
+    "traducao": "Foi mal, eu esqueci."
+  },
+  {
+    "id": 298,
+    "frase_ingles": "My fault.",
+    "traducao": "Minha culpa."
+  },
+  {
+    "id": 299,
+    "frase_ingles": "No hard feelings.",
+    "traducao": "Sem ressentimentos."
+  },
+  {
+    "id": 300,
+    "frase_ingles": "Don't take it personally.",
+    "traducao": "Não leve para o lado pessoal."
+  },
+  {
+    "id": 301,
+    "frase_ingles": "I totally agree.",
+    "traducao": "Concordo totalmente."
+  },
+  {
+    "id": 302,
+    "frase_ingles": "I'm with you on that.",
+    "traducao": "Concordo com você nisso."
+  },
+  {
+    "id": 303,
+    "frase_ingles": "I see your point.",
+    "traducao": "Entendo seu ponto."
+  },
+  {
+    "id": 304,
+    "frase_ingles": "I'm not sure I agree.",
+    "traducao": "Não tenho certeza se concordo."
+  },
+  {
+    "id": 305,
+    "frase_ingles": "Let's agree to disagree.",
+    "traducao": "Vamos concordar em discordar."
+  },
+  {
+    "id": 306,
+    "frase_ingles": "That's a fair point.",
+    "traducao": "É um ponto válido."
+  },
+  {
+    "id": 307,
+    "frase_ingles": "From my point of view, it makes sense.",
+    "traducao": "Do meu ponto de vista, faz sentido."
+  },
+  {
+    "id": 308,
+    "frase_ingles": "As far as I know, it's still available.",
+    "traducao": "Até onde sei, ainda está disponível."
+  },
+  {
+    "id": 309,
+    "frase_ingles": "As far as I can tell, everything is fine.",
+    "traducao": "Pelo que posso perceber, está tudo bem."
+  },
+  {
+    "id": 310,
+    "frase_ingles": "To be honest, I'm not sure.",
+    "traducao": "Para ser sincero, não tenho certeza."
+  },
+  {
+    "id": 311,
+    "frase_ingles": "Honestly, I don't care.",
+    "traducao": "Sinceramente, não me importo."
+  },
+  {
+    "id": 312,
+    "frase_ingles": "To be fair, you were right.",
+    "traducao": "Para ser justo, você estava certo."
+  },
+  {
+    "id": 313,
+    "frase_ingles": "Basically, we need more time.",
+    "traducao": "Basicamente, precisamos de mais tempo."
+  },
+  {
+    "id": 314,
+    "frase_ingles": "Actually, I changed my mind.",
+    "traducao": "Na verdade, mudei de ideia."
+  },
+  {
+    "id": 315,
+    "frase_ingles": "By the way, did you call him?",
+    "traducao": "A propósito, você ligou para ele?"
+  },
+  {
+    "id": 316,
+    "frase_ingles": "Speaking of work, I need to tell you something.",
+    "traducao": "Falando em trabalho, preciso contar uma coisa para você."
+  },
+  {
+    "id": 317,
+    "frase_ingles": "Anyway, let's move on.",
+    "traducao": "Enfim, vamos seguir em frente."
+  },
+  {
+    "id": 318,
+    "frase_ingles": "Long story short, we missed the flight.",
+    "traducao": "Resumindo, perdemos o voo."
+  },
+  {
+    "id": 319,
+    "frase_ingles": "As usual, he was late.",
+    "traducao": "Como sempre, ele estava atrasado."
+  },
+  {
+    "id": 320,
+    "frase_ingles": "For some reason, it stopped working.",
+    "traducao": "Por algum motivo, parou de funcionar."
+  },
+  {
+    "id": 321,
+    "frase_ingles": "In the meantime, I'll wait here.",
+    "traducao": "Enquanto isso, vou esperar aqui."
+  },
+  {
+    "id": 322,
+    "frase_ingles": "At least we tried.",
+    "traducao": "Pelo menos tentamos."
+  },
+  {
+    "id": 323,
+    "frase_ingles": "That's the thing.",
+    "traducao": "Esse é o problema. / É justamente isso."
+  },
+  {
+    "id": 324,
+    "frase_ingles": "Here's the thing.",
+    "traducao": "A questão é a seguinte."
+  },
+  {
+    "id": 325,
+    "frase_ingles": "The thing is, I don't have time.",
+    "traducao": "A questão é que não tenho tempo."
+  },
+  {
+    "id": 326,
+    "frase_ingles": "I mean, it's not that bad.",
+    "traducao": "Quer dizer, não é tão ruim assim."
+  },
+  {
+    "id": 327,
+    "frase_ingles": "You know what I mean?",
+    "traducao": "Você sabe o que quero dizer?"
+  },
+  {
+    "id": 328,
+    "frase_ingles": "If you ask me, it's a bad idea.",
+    "traducao": "Se quer saber minha opinião, é uma má ideia."
+  },
+  {
+    "id": 329,
+    "frase_ingles": "That's a good question.",
+    "traducao": "Essa é uma boa pergunta."
+  },
+  {
+    "id": 330,
+    "frase_ingles": "Let me think about it.",
+    "traducao": "Deixe-me pensar sobre isso."
+  },
+  {
+    "id": 331,
+    "frase_ingles": "I'll get back to you once I know more.",
+    "traducao": "Retorno quando eu souber mais."
+  },
+  {
+    "id": 332,
+    "frase_ingles": "I'll keep that in mind.",
+    "traducao": "Vou levar isso em consideração."
+  },
+  {
+    "id": 333,
+    "frase_ingles": "That reminds me.",
+    "traducao": "Isso me lembra uma coisa."
+  },
+  {
+    "id": 334,
+    "frase_ingles": "It rings a bell.",
+    "traducao": "Isso me parece familiar."
+  },
+  {
+    "id": 335,
+    "frase_ingles": "I can't remember off the top of my head.",
+    "traducao": "Não consigo lembrar de cabeça."
+  },
+  {
+    "id": 336,
+    "frase_ingles": "I'll double-check.",
+    "traducao": "Vou verificar novamente."
+  },
+  {
+    "id": 337,
+    "frase_ingles": "Just to be safe, I'll check again.",
+    "traducao": "Só para garantir, vou verificar novamente."
+  },
+  {
+    "id": 338,
+    "frase_ingles": "Better safe than sorry.",
+    "traducao": "É melhor prevenir do que remediar."
+  },
+  {
+    "id": 339,
+    "frase_ingles": "Let's play it safe.",
+    "traducao": "Vamos jogar pelo seguro."
+  },
+  {
+    "id": 340,
+    "frase_ingles": "It's worth a shot.",
+    "traducao": "Vale a tentativa."
+  },
+  {
+    "id": 341,
+    "frase_ingles": "Give it a shot.",
+    "traducao": "Tente."
+  },
+  {
+    "id": 342,
+    "frase_ingles": "It's not worth the hassle.",
+    "traducao": "Não vale o transtorno."
+  },
+  {
+    "id": 343,
+    "frase_ingles": "That's easier said than done.",
+    "traducao": "É mais fácil falar do que fazer."
+  },
+  {
+    "id": 344,
+    "frase_ingles": "You never know what might happen.",
+    "traducao": "Nunca se sabe o que pode acontecer."
+  },
+  {
+    "id": 345,
+    "frase_ingles": "Let's see how it goes.",
+    "traducao": "Vamos ver como vai ser."
+  },
+  {
+    "id": 346,
+    "frase_ingles": "Fingers crossed.",
+    "traducao": "Tomara. / Vamos torcer."
+  },
+  {
+    "id": 347,
+    "frase_ingles": "Wish me luck.",
+    "traducao": "Me deseje sorte."
+  },
+  {
+    "id": 348,
+    "frase_ingles": "I'm keeping my fingers crossed.",
+    "traducao": "Estou torcendo."
+  },
+  {
+    "id": 349,
+    "frase_ingles": "Hopefully, it'll work out.",
+    "traducao": "Espero que dê certo."
+  },
+  {
+    "id": 350,
+    "frase_ingles": "Things will work out.",
+    "traducao": "As coisas vão dar certo."
+  },
+  {
+    "id": 351,
+    "frase_ingles": "I need to figure out what went wrong.",
+    "traducao": "Preciso descobrir o que deu errado."
+  },
+  {
+    "id": 352,
+    "frase_ingles": "Something came up, so I can't make it.",
+    "traducao": "Aconteceu uma coisa, então não vou conseguir ir."
+  },
+  {
+    "id": 353,
+    "frase_ingles": "Can we push it to next week?",
+    "traducao": "Podemos deixar para a próxima semana?"
+  },
+  {
+    "id": 354,
+    "frase_ingles": "Something came up at work.",
+    "traducao": "Aconteceu uma coisa no trabalho."
+  },
+  {
+    "id": 355,
+    "frase_ingles": "I won't be able to make it.",
+    "traducao": "Não vou conseguir ir."
+  },
+  {
+    "id": 356,
+    "frase_ingles": "Thanks for letting me know.",
+    "traducao": "Obrigado por me avisar."
+  },
+  {
+    "id": 357,
+    "frase_ingles": "Thanks for the heads-up.",
+    "traducao": "Obrigado pelo aviso."
+  },
+  {
+    "id": 358,
+    "frase_ingles": "I appreciate the heads-up.",
+    "traducao": "Agradeço pelo aviso."
+  },
+  {
+    "id": 359,
+    "frase_ingles": "Sorry, I didn't catch that.",
+    "traducao": "Desculpa, não entendi o que você disse."
+  },
+  {
+    "id": 360,
+    "frase_ingles": "Could you say that again?",
+    "traducao": "Você poderia dizer isso novamente?"
+  },
+  {
+    "id": 361,
+    "frase_ingles": "What was that?",
+    "traducao": "O que foi isso? / O que você disse?"
+  },
+  {
+    "id": 362,
+    "frase_ingles": "Could you speak up a little?",
+    "traducao": "Pode falar um pouco mais alto?"
+  },
+  {
+    "id": 363,
+    "frase_ingles": "I'm still working on my English.",
+    "traducao": "Ainda estou trabalhando no meu inglês."
+  },
+  {
+    "id": 364,
+    "frase_ingles": "I'm getting more comfortable speaking English.",
+    "traducao": "Estou ficando mais confortável falando inglês."
+  },
+  {
+    "id": 365,
+    "frase_ingles": "I know what I want to say, but I can't find the words.",
+    "traducao": "Eu sei o que quero dizer, mas não consigo encontrar as palavras."
+  }
 ]
