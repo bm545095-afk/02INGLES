@@ -1823,5 +1823,1233 @@
     "id": 365,
     "frase_ingles": "I know what I want to say, but I can't find the words.",
     "traducao": "Eu sei o que quero dizer, mas não consigo encontrar as palavras."
-  }
+  },
+  [
+{
+"id": 366,
+"frase_ingles": "Where can I check in for my flight?",
+"traducao": "Onde faço o check-in do meu voo?"
+},
+{
+"id": 367,
+"frase_ingles": "Which terminal do I need to go to?",
+"traducao": "Para qual terminal eu preciso ir?"
+},
+{
+"id": 368,
+"frase_ingles": "What time does boarding start?",
+"traducao": "Que horas começa o embarque?"
+},
+{
+"id": 369,
+"frase_ingles": "Has the gate been changed?",
+"traducao": "O portão de embarque mudou?"
+},
+{
+"id": 370,
+"frase_ingles": "What gate is the flight leaving from?",
+"traducao": "De qual portão sai o voo?"
+},
+{
+"id": 371,
+"frase_ingles": "Is this the line for security?",
+"traducao": "Essa é a fila da segurança?"
+},
+{
+"id": 372,
+"frase_ingles": "Do I need to take my laptop out of my bag?",
+"traducao": "Preciso tirar o notebook da mochila?"
+},
+{
+"id": 373,
+"frase_ingles": "Can I take this through security?",
+"traducao": "Posso levar isso pela segurança?"
+},
+{
+"id": 374,
+"frase_ingles": "Where do I pick up my luggage?",
+"traducao": "Onde pego minha bagagem?"
+},
+{
+"id": 375,
+"frase_ingles": "My luggage didn't arrive.",
+"traducao": "Minha bagagem não chegou."
+},
+{
+"id": 376,
+"frase_ingles": "Where can I report lost luggage?",
+"traducao": "Onde posso comunicar o extravio da bagagem?"
+},
+{
+"id": 377,
+"frase_ingles": "Is this bag within the weight limit?",
+"traducao": "Essa mala está dentro do limite de peso?"
+},
+{
+"id": 378,
+"frase_ingles": "Can I check this bag?",
+"traducao": "Posso despachar esta mala?"
+},
+{
+"id": 379,
+"frase_ingles": "Can I bring this as a carry-on?",
+"traducao": "Posso levar isso como bagagem de mão?"
+},
+{
+"id": 380,
+"frase_ingles": "Is the flight on time?",
+"traducao": "O voo está no horário?"
+},
+{
+"id": 381,
+"frase_ingles": "Is the flight delayed?",
+"traducao": "O voo está atrasado?"
+},
+{
+"id": 382,
+"frase_ingles": "How long is the delay?",
+"traducao": "Quanto tempo é o atraso?"
+},
+{
+"id": 383,
+"frase_ingles": "Why was the flight canceled?",
+"traducao": "Por que o voo foi cancelado?"
+},
+{
+"id": 384,
+"frase_ingles": "When is the next flight?",
+"traducao": "Quando é o próximo voo?"
+},
+{
+"id": 385,
+"frase_ingles": "Can I get on an earlier flight?",
+"traducao": "Posso pegar um voo mais cedo?"
+},
+{
+"id": 386,
+"frase_ingles": "Is there a direct flight?",
+"traducao": "Tem voo direto?"
+},
+{
+"id": 387,
+"frase_ingles": "Do I have to make a connection?",
+"traducao": "Preciso fazer uma conexão?"
+},
+{
+"id": 388,
+"frase_ingles": "How long is the layover?",
+"traducao": "Quanto tempo dura a conexão?"
+},
+{
+"id": 389,
+"frase_ingles": "Do I need to change terminals?",
+"traducao": "Preciso mudar de terminal?"
+},
+{
+"id": 390,
+"frase_ingles": "Will my luggage be transferred automatically?",
+"traducao": "Minha bagagem será transferida automaticamente?"
+},
+{
+"id": 391,
+"frase_ingles": "Where's the nearest exit?",
+"traducao": "Onde fica a saída mais próxima?"
+},
+{
+"id": 392,
+"frase_ingles": "Where can I exchange money?",
+"traducao": "Onde posso trocar dinheiro?"
+},
+{
+"id": 393,
+"frase_ingles": "Where can I withdraw cash?",
+"traducao": "Onde posso sacar dinheiro?"
+},
+{
+"id": 394,
+"frase_ingles": "Is there an ATM nearby?",
+"traducao": "Tem um caixa eletrônico por perto?"
+},
+{
+"id": 395,
+"frase_ingles": "Can I pay by card?",
+"traducao": "Posso pagar com cartão?"
+},
+{
+"id": 396,
+"frase_ingles": "Do you accept contactless payments?",
+"traducao": "Vocês aceitam pagamento por aproximação?"
+},
+{
+"id": 397,
+"frase_ingles": "Where can I get a taxi?",
+"traducao": "Onde posso pegar um táxi?"
+},
+{
+"id": 398,
+"frase_ingles": "Where's the taxi stand?",
+"traducao": "Onde fica o ponto de táxi?"
+},
+{
+"id": 399,
+"frase_ingles": "Can you call me a taxi?",
+"traducao": "Você pode chamar um táxi para mim?"
+},
+{
+"id": 400,
+"frase_ingles": "How much is it to downtown?",
+"traducao": "Quanto custa até o centro?"
+},
+{
+"id": 401,
+"frase_ingles": "How long does it take to get there?",
+"traducao": "Quanto tempo leva para chegar lá?"
+},
+{
+"id": 402,
+"frase_ingles": "Could you take me to this address?",
+"traducao": "Você poderia me levar para este endereço?"
+},
+{
+"id": 403,
+"frase_ingles": "Could you drop me off here?",
+"traducao": "Você poderia me deixar aqui?"
+},
+{
+"id": 404,
+"frase_ingles": "Could you drop me off at the hotel?",
+"traducao": "Você poderia me deixar no hotel?"
+},
+{
+"id": 405,
+"frase_ingles": "Could you wait here for a minute?",
+"traducao": "Você poderia esperar aqui por um minuto?"
+},
+{
+"id": 406,
+"frase_ingles": "Can you take the fastest route?",
+"traducao": "Pode pegar a rota mais rápida?"
+},
+{
+"id": 407,
+"frase_ingles": "Is there a lot of traffic?",
+"traducao": "Está muito engarrafado?"
+},
+{
+"id": 408,
+"frase_ingles": "How much will the ride cost?",
+"traducao": "Quanto vai custar a corrida?"
+},
+{
+"id": 409,
+"frase_ingles": "Does the fare include tolls?",
+"traducao": "A tarifa inclui os pedágios?"
+},
+{
+"id": 410,
+"frase_ingles": "Can I pay the driver by card?",
+"traducao": "Posso pagar o motorista com cartão?"
+},
+{
+"id": 411,
+"frase_ingles": "Is this the right car?",
+"traducao": "Este é o carro certo?"
+},
+{
+"id": 412,
+"frase_ingles": "I'm waiting for my Uber.",
+"traducao": "Estou esperando meu Uber."
+},
+{
+"id": 413,
+"frase_ingles": "Where should I meet the driver?",
+"traducao": "Onde devo encontrar o motorista?"
+},
+{
+"id": 414,
+"frase_ingles": "Can you pick me up here?",
+"traducao": "Você pode me buscar aqui?"
+},
+{
+"id": 415,
+"frase_ingles": "I'm running a little late.",
+"traducao": "Estou um pouco atrasado."
+},
+{
+"id": 416,
+"frase_ingles": "I'll be there in a few minutes.",
+"traducao": "Estarei aí em alguns minutos."
+},
+{
+"id": 417,
+"frase_ingles": "I'm stuck in traffic.",
+"traducao": "Estou preso no trânsito."
+},
+{
+"id": 418,
+"frase_ingles": "The traffic is really bad today.",
+"traducao": "O trânsito está muito ruim hoje."
+},
+{
+"id": 419,
+"frase_ingles": "How do I get to the city center?",
+"traducao": "Como faço para chegar ao centro da cidade?"
+},
+{
+"id": 420,
+"frase_ingles": "What's the best way to get there?",
+"traducao": "Qual é a melhor maneira de chegar lá?"
+},
+{
+"id": 421,
+"frase_ingles": "What's the easiest way to get around?",
+"traducao": "Qual é a maneira mais fácil de se locomover?"
+},
+{
+"id": 422,
+"frase_ingles": "Can I walk there from here?",
+"traducao": "Dá para ir andando daqui?"
+},
+{
+"id": 423,
+"frase_ingles": "Is it within walking distance?",
+"traducao": "Dá para ir a pé?"
+},
+{
+"id": 424,
+"frase_ingles": "How far is it from here?",
+"traducao": "A que distância fica daqui?"
+},
+{
+"id": 425,
+"frase_ingles": "Is it far from here?",
+"traducao": "É longe daqui?"
+},
+{
+"id": 426,
+"frase_ingles": "Which way should I go?",
+"traducao": "Por qual caminho devo ir?"
+},
+{
+"id": 427,
+"frase_ingles": "Am I going the right way?",
+"traducao": "Estou indo pelo caminho certo?"
+},
+{
+"id": 428,
+"frase_ingles": "Can you point me in the right direction?",
+"traducao": "Pode me indicar a direção certa?"
+},
+{
+"id": 429,
+"frase_ingles": "Could you show me on the map?",
+"traducao": "Você poderia me mostrar no mapa?"
+},
+{
+"id": 430,
+"frase_ingles": "Could you write down the address for me?",
+"traducao": "Você poderia anotar o endereço para mim?"
+},
+{
+"id": 431,
+"frase_ingles": "Is there a bus stop around here?",
+"traducao": "Tem um ponto de ônibus por aqui?"
+},
+{
+"id": 432,
+"frase_ingles": "Where can I catch the bus?",
+"traducao": "Onde posso pegar o ônibus?"
+},
+{
+"id": 433,
+"frase_ingles": "Which bus goes downtown?",
+"traducao": "Qual ônibus vai para o centro?"
+},
+{
+"id": 434,
+"frase_ingles": "Does this bus go to the airport?",
+"traducao": "Este ônibus vai para o aeroporto?"
+},
+{
+"id": 435,
+"frase_ingles": "Where do I get off?",
+"traducao": "Onde eu desço?"
+},
+{
+"id": 436,
+"frase_ingles": "Let me know when we get there.",
+"traducao": "Me avise quando chegarmos lá."
+},
+{
+"id": 437,
+"frase_ingles": "How often does the bus run?",
+"traducao": "Com que frequência passa o ônibus?"
+},
+{
+"id": 438,
+"frase_ingles": "When's the next bus?",
+"traducao": "Quando passa o próximo ônibus?"
+},
+{
+"id": 439,
+"frase_ingles": "How much is a bus ticket?",
+"traducao": "Quanto custa uma passagem de ônibus?"
+},
+{
+"id": 440,
+"frase_ingles": "Can I buy a ticket here?",
+"traducao": "Posso comprar uma passagem aqui?"
+},
+{
+"id": 441,
+"frase_ingles": "Do I need exact change?",
+"traducao": "Preciso ter o valor exato em dinheiro?"
+},
+{
+"id": 442,
+"frase_ingles": "Where's the nearest subway station?",
+"traducao": "Onde fica a estação de metrô mais próxima?"
+},
+{
+"id": 443,
+"frase_ingles": "Which line should I take?",
+"traducao": "Qual linha devo pegar?"
+},
+{
+"id": 444,
+"frase_ingles": "Where do I transfer?",
+"traducao": "Onde faço a baldeação?"
+},
+{
+"id": 445,
+"frase_ingles": "How many stops is it?",
+"traducao": "São quantas paradas?"
+},
+{
+"id": 446,
+"frase_ingles": "Is this train going in the right direction?",
+"traducao": "Este trem está indo na direção certa?"
+},
+{
+"id": 447,
+"frase_ingles": "Does this train stop at the airport?",
+"traducao": "Este trem para no aeroporto?"
+},
+{
+"id": 448,
+"frase_ingles": "Where can I buy a subway card?",
+"traducao": "Onde posso comprar um cartão de metrô?"
+},
+{
+"id": 449,
+"frase_ingles": "Can I use this ticket on the bus too?",
+"traducao": "Posso usar esta passagem no ônibus também?"
+},
+{
+"id": 450,
+"frase_ingles": "Is public transportation reliable around here?",
+"traducao": "O transporte público é confiável por aqui?"
+},
+{
+"id": 451,
+"frase_ingles": "What's the quickest way to get around the city?",
+"traducao": "Qual é a maneira mais rápida de se locomover pela cidade?"
+},
+{
+"id": 452,
+"frase_ingles": "Should I take a taxi or the subway?",
+"traducao": "Devo pegar um táxi ou o metrô?"
+},
+{
+"id": 453,
+"frase_ingles": "Would it be cheaper to take the bus?",
+"traducao": "Seria mais barato pegar o ônibus?"
+},
+{
+"id": 454,
+"frase_ingles": "Can I rent a car here?",
+"traducao": "Posso alugar um carro aqui?"
+},
+{
+"id": 455,
+"frase_ingles": "Where's the car rental desk?",
+"traducao": "Onde fica o balcão de aluguel de carros?"
+},
+{
+"id": 456,
+"frase_ingles": "Do you have any cars available?",
+"traducao": "Vocês têm algum carro disponível?"
+},
+{
+"id": 457,
+"frase_ingles": "How much is it per day?",
+"traducao": "Quanto custa por dia?"
+},
+{
+"id": 458,
+"frase_ingles": "Does the price include insurance?",
+"traducao": "O preço inclui seguro?"
+},
+{
+"id": 459,
+"frase_ingles": "Is there a mileage limit?",
+"traducao": "Existe limite de quilometragem?"
+},
+{
+"id": 460,
+"frase_ingles": "Can I return the car at another location?",
+"traducao": "Posso devolver o carro em outro local?"
+},
+{
+"id": 461,
+"frase_ingles": "Where's the nearest gas station?",
+"traducao": "Onde fica o posto de gasolina mais próximo?"
+},
+{
+"id": 462,
+"frase_ingles": "How do I get to this address?",
+"traducao": "Como chego a este endereço?"
+},
+{
+"id": 463,
+"frase_ingles": "Is there parking nearby?",
+"traducao": "Tem estacionamento por perto?"
+},
+{
+"id": 464,
+"frase_ingles": "How much is parking?",
+"traducao": "Quanto custa o estacionamento?"
+},
+{
+"id": 465,
+"frase_ingles": "Can I park here?",
+"traducao": "Posso estacionar aqui?"
+},
+{
+"id": 466,
+"frase_ingles": "Is parking free on weekends?",
+"traducao": "O estacionamento é gratuito nos fins de semana?"
+},
+{
+"id": 467,
+"frase_ingles": "Where's the entrance?",
+"traducao": "Onde fica a entrada?"
+},
+{
+"id": 468,
+"frase_ingles": "Where's the nearest restroom?",
+"traducao": "Onde fica o banheiro mais próximo?"
+},
+{
+"id": 469,
+"frase_ingles": "Is there a restroom around here?",
+"traducao": "Tem banheiro por aqui?"
+},
+{
+"id": 470,
+"frase_ingles": "Is there a convenience store nearby?",
+"traducao": "Tem uma loja de conveniência por perto?"
+},
+{
+"id": 471,
+"frase_ingles": "Where can I buy a SIM card?",
+"traducao": "Onde posso comprar um chip?"
+},
+{
+"id": 472,
+"frase_ingles": "Do you have Wi-Fi here?",
+"traducao": "Tem Wi-Fi aqui?"
+},
+{
+"id": 473,
+"frase_ingles": "What's the Wi-Fi password?",
+"traducao": "Qual é a senha do Wi-Fi?"
+},
+{
+"id": 474,
+"frase_ingles": "My phone is about to die.",
+"traducao": "Meu celular está quase sem bateria."
+},
+{
+"id": 475,
+"frase_ingles": "Is there somewhere I can charge my phone?",
+"traducao": "Tem algum lugar onde eu possa carregar meu celular?"
+},
+{
+"id": 476,
+"frase_ingles": "Could you take a picture for me?",
+"traducao": "Você poderia tirar uma foto para mim?"
+},
+{
+"id": 477,
+"frase_ingles": "Could you take one more?",
+"traducao": "Você poderia tirar mais uma?"
+},
+{
+"id": 478,
+"frase_ingles": "Could you take it from this angle?",
+"traducao": "Você poderia tirar de outro ângulo?"
+},
+{
+"id": 479,
+"frase_ingles": "Excuse me, could you help me out?",
+"traducao": "Com licença, você poderia me ajudar?"
+},
+{
+"id": 480,
+"frase_ingles": "Do you happen to know where this is?",
+"traducao": "Por acaso você sabe onde fica isso?"
+},
+{
+"id": 481,
+"frase_ingles": "Do you know how to get there?",
+"traducao": "Você sabe como chegar lá?"
+},
+{
+"id": 482,
+"frase_ingles": "Could you tell me how to get there?",
+"traducao": "Você poderia me dizer como chegar lá?"
+},
+{
+"id": 483,
+"frase_ingles": "Is there another way to get there?",
+"traducao": "Existe outra maneira de chegar lá?"
+},
+{
+"id": 484,
+"frase_ingles": "Is this the right street?",
+"traducao": "Esta é a rua certa?"
+},
+{
+"id": 485,
+"frase_ingles": "What's this place called?",
+"traducao": "Como se chama este lugar?"
+},
+{
+"id": 486,
+"frase_ingles": "What's the name of this neighborhood?",
+"traducao": "Qual é o nome deste bairro?"
+},
+{
+"id": 487,
+"frase_ingles": "How do you pronounce this name?",
+"traducao": "Como se pronuncia este nome?"
+},
+{
+"id": 488,
+"frase_ingles": "Could you speak a little slower?",
+"traducao": "Você poderia falar um pouco mais devagar?"
+},
+{
+"id": 489,
+"frase_ingles": "Could you say that again?",
+"traducao": "Você poderia repetir?"
+},
+{
+"id": 490,
+"frase_ingles": "I didn't catch that.",
+"traducao": "Não entendi / Não consegui entender o que você disse."
+},
+{
+"id": 491,
+"frase_ingles": "What do you mean by that?",
+"traducao": "O que você quer dizer com isso?"
+},
+{
+"id": 492,
+"frase_ingles": "Could you explain that to me?",
+"traducao": "Você poderia me explicar isso?"
+},
+{
+"id": 493,
+"frase_ingles": "Just to make sure I understood...",
+"traducao": "Só para ter certeza de que entendi..."
+},
+{
+"id": 494,
+"frase_ingles": "So, I need to go this way, right?",
+"traducao": "Então, preciso ir por aqui, certo?"
+},
+{
+"id": 495,
+"frase_ingles": "How long does it take on foot?",
+"traducao": "Quanto tempo leva a pé?"
+},
+{
+"id": 496,
+"frase_ingles": "How long does it take by car?",
+"traducao": "Quanto tempo leva de carro?"
+},
+{
+"id": 497,
+"frase_ingles": "How long does it take by bus?",
+"traducao": "Quanto tempo leva de ônibus?"
+},
+{
+"id": 498,
+"frase_ingles": "Is there a shortcut?",
+"traducao": "Tem algum caminho mais curto?"
+},
+{
+"id": 499,
+"frase_ingles": "Is there a faster route?",
+"traducao": "Tem uma rota mais rápida?"
+},
+{
+"id": 500,
+"frase_ingles": "I'm trying to find this place.",
+"traducao": "Estou tentando encontrar este lugar."
+},
+{
+"id": 501,
+"frase_ingles": "I'm a little lost.",
+"traducao": "Estou um pouco perdido."
+},
+{
+"id": 502,
+"frase_ingles": "I think I took the wrong turn.",
+"traducao": "Acho que virei no lugar errado."
+},
+{
+"id": 503,
+"frase_ingles": "I think I missed my stop.",
+"traducao": "Acho que perdi minha parada."
+},
+{
+"id": 504,
+"frase_ingles": "Can you tell me when to get off?",
+"traducao": "Pode me avisar quando eu devo descer?"
+},
+{
+"id": 505,
+"frase_ingles": "Where do I catch the train?",
+"traducao": "Onde pego o trem?"
+},
+{
+"id": 506,
+"frase_ingles": "Where does this train go?",
+"traducao": "Para onde vai este trem?"
+},
+{
+"id": 507,
+"frase_ingles": "Does this train stop here?",
+"traducao": "Este trem para aqui?"
+},
+{
+"id": 508,
+"frase_ingles": "Is this seat taken?",
+"traducao": "Este lugar está ocupado?"
+},
+{
+"id": 509,
+"frase_ingles": "Can I sit here?",
+"traducao": "Posso sentar aqui?"
+},
+{
+"id": 510,
+"frase_ingles": "Could you move over a little?",
+"traducao": "Você poderia se afastar um pouco?"
+},
+{
+"id": 511,
+"frase_ingles": "Is there an empty seat?",
+"traducao": "Tem algum lugar vazio?"
+},
+{
+"id": 512,
+"frase_ingles": "Where can I buy a ticket?",
+"traducao": "Onde posso comprar uma passagem?"
+},
+{
+"id": 513,
+"frase_ingles": "I'd like a one-way ticket.",
+"traducao": "Eu gostaria de uma passagem só de ida."
+},
+{
+"id": 514,
+"frase_ingles": "I'd like a round-trip ticket.",
+"traducao": "Eu gostaria de uma passagem de ida e volta."
+},
+{
+"id": 515,
+"frase_ingles": "What time does the next one leave?",
+"traducao": "Que horas sai o próximo?"
+},
+{
+"id": 516,
+"frase_ingles": "What time do we arrive?",
+"traducao": "Que horas chegamos?"
+},
+{
+"id": 517,
+"frase_ingles": "What time do we get there?",
+"traducao": "Que horas chegamos lá?"
+},
+{
+"id": 518,
+"frase_ingles": "How long is the trip?",
+"traducao": "Quanto tempo dura a viagem?"
+},
+{
+"id": 519,
+"frase_ingles": "Is there a stop along the way?",
+"traducao": "Tem alguma parada no caminho?"
+},
+{
+"id": 520,
+"frase_ingles": "Can we stop somewhere for food?",
+"traducao": "Podemos parar em algum lugar para comer?"
+},
+{
+"id": 521,
+"frase_ingles": "Can we pull over here?",
+"traducao": "Podemos parar aqui?"
+},
+{
+"id": 522,
+"frase_ingles": "Could you pull over at the next stop?",
+"traducao": "Você poderia parar na próxima parada?"
+},
+{
+"id": 523,
+"frase_ingles": "I need to get off here.",
+"traducao": "Preciso descer aqui."
+},
+{
+"id": 524,
+"frase_ingles": "I'll get off at the next stop.",
+"traducao": "Vou descer na próxima parada."
+},
+{
+"id": 525,
+"frase_ingles": "Can you let me know when we arrive?",
+"traducao": "Pode me avisar quando chegarmos?"
+},
+{
+"id": 526,
+"frase_ingles": "I'm heading to the airport.",
+"traducao": "Estou indo para o aeroporto."
+},
+{
+"id": 527,
+"frase_ingles": "I'm on my way to the hotel.",
+"traducao": "Estou a caminho do hotel."
+},
+{
+"id": 528,
+"frase_ingles": "I'll meet you at the entrance.",
+"traducao": "Vou encontrar você na entrada."
+},
+{
+"id": 529,
+"frase_ingles": "I'll meet you outside.",
+"traducao": "Vou encontrar você lá fora."
+},
+{
+"id": 530,
+"frase_ingles": "I'm almost there.",
+"traducao": "Estou quase chegando."
+},
+{
+"id": 531,
+"frase_ingles": "I just got here.",
+"traducao": "Acabei de chegar."
+},
+{
+"id": 532,
+"frase_ingles": "I just got off the plane.",
+"traducao": "Acabei de sair do avião."
+},
+{
+"id": 533,
+"frase_ingles": "I just got off the bus.",
+"traducao": "Acabei de descer do ônibus."
+},
+{
+"id": 534,
+"frase_ingles": "I need to get to the hotel first.",
+"traducao": "Preciso ir primeiro para o hotel."
+},
+{
+"id": 535,
+"frase_ingles": "Can I leave my luggage here?",
+"traducao": "Posso deixar minha bagagem aqui?"
+},
+{
+"id": 536,
+"frase_ingles": "Can I leave my bags at the front desk?",
+"traducao": "Posso deixar minhas malas na recepção?"
+},
+{
+"id": 537,
+"frase_ingles": "Where's the hotel shuttle?",
+"traducao": "Onde está o transporte do hotel?"
+},
+{
+"id": 538,
+"frase_ingles": "Does the hotel offer airport transfers?",
+"traducao": "O hotel oferece traslado do aeroporto?"
+},
+{
+"id": 539,
+"frase_ingles": "What time does the shuttle leave?",
+"traducao": "Que horas o transporte sai?"
+},
+{
+"id": 540,
+"frase_ingles": "Where does the shuttle pick us up?",
+"traducao": "Onde o transporte nos busca?"
+},
+{
+"id": 541,
+"frase_ingles": "Is this the right way to the hotel?",
+"traducao": "Este é o caminho certo para o hotel?"
+},
+{
+"id": 542,
+"frase_ingles": "How far is the hotel from here?",
+"traducao": "A que distância fica o hotel daqui?"
+},
+{
+"id": 543,
+"frase_ingles": "Can I check in early?",
+"traducao": "Posso fazer o check-in mais cedo?"
+},
+{
+"id": 544,
+"frase_ingles": "What time is check-in?",
+"traducao": "Que horas é o check-in?"
+},
+{
+"id": 545,
+"frase_ingles": "What time do I have to check out?",
+"traducao": "Que horas preciso fazer o check-out?"
+},
+{
+"id": 546,
+"frase_ingles": "Can I get a late checkout?",
+"traducao": "Posso fazer o check-out mais tarde?"
+},
+{
+"id": 547,
+"frase_ingles": "Is breakfast included?",
+"traducao": "O café da manhã está incluído?"
+},
+{
+"id": 548,
+"frase_ingles": "Is there a restaurant nearby?",
+"traducao": "Tem algum restaurante por perto?"
+},
+{
+"id": 549,
+"frase_ingles": "What's there to do around here?",
+"traducao": "O que tem para fazer por aqui?"
+},
+{
+"id": 550,
+"frase_ingles": "What do you recommend around here?",
+"traducao": "O que você recomenda por aqui?"
+},
+{
+"id": 551,
+"frase_ingles": "What's the area like?",
+"traducao": "Como é essa região?"
+},
+{
+"id": 552,
+"frase_ingles": "Is this area safe at night?",
+"traducao": "Esta região é segura à noite?"
+},
+{
+"id": 553,
+"frase_ingles": "Is it safe to walk around here?",
+"traducao": "É seguro andar por aqui?"
+},
+{
+"id": 554,
+"frase_ingles": "What time does this place close?",
+"traducao": "Que horas este lugar fecha?"
+},
+{
+"id": 555,
+"frase_ingles": "Is it open right now?",
+"traducao": "Está aberto agora?"
+},
+{
+"id": 556,
+"frase_ingles": "How do I get back to the hotel?",
+"traducao": "Como faço para voltar ao hotel?"
+},
+{
+"id": 557,
+"frase_ingles": "What's the best way to get back?",
+"traducao": "Qual é a melhor maneira de voltar?"
+},
+{
+"id": 558,
+"frase_ingles": "Can I get a taxi back from here?",
+"traducao": "Posso pegar um táxi daqui para voltar?"
+},
+{
+"id": 559,
+"frase_ingles": "Is there a taxi stand nearby?",
+"traducao": "Tem um ponto de táxi por perto?"
+},
+{
+"id": 560,
+"frase_ingles": "Can you recommend a good taxi company?",
+"traducao": "Você pode recomendar uma boa empresa de táxi?"
+},
+{
+"id": 561,
+"frase_ingles": "How much should a taxi cost?",
+"traducao": "Quanto deveria custar um táxi?"
+},
+{
+"id": 562,
+"frase_ingles": "Is this price reasonable?",
+"traducao": "Esse preço é razoável?"
+},
+{
+"id": 563,
+"frase_ingles": "Can you give me a rough estimate?",
+"traducao": "Pode me dar uma estimativa aproximada?"
+},
+{
+"id": 564,
+"frase_ingles": "How much longer?",
+"traducao": "Quanto tempo falta?"
+},
+{
+"id": 565,
+"frase_ingles": "Are we almost there?",
+"traducao": "Estamos quase chegando?"
+},
+{
+"id": 566,
+"frase_ingles": "How much farther is it?",
+"traducao": "Quanto falta para chegar?"
+},
+{
+"id": 567,
+"frase_ingles": "Can you slow down a little?",
+"traducao": "Pode ir um pouco mais devagar?"
+},
+{
+"id": 568,
+"frase_ingles": "Could you turn the air conditioning down?",
+"traducao": "Você poderia diminuir o ar-condicionado?"
+},
+{
+"id": 569,
+"frase_ingles": "Could you turn the air conditioning up?",
+"traducao": "Você poderia aumentar o ar-condicionado?"
+},
+{
+"id": 570,
+"frase_ingles": "Can you open the window?",
+"traducao": "Pode abrir a janela?"
+},
+{
+"id": 571,
+"frase_ingles": "Could you stop at the next gas station?",
+"traducao": "Você poderia parar no próximo posto?"
+},
+{
+"id": 572,
+"frase_ingles": "I need to use the restroom.",
+"traducao": "Preciso usar o banheiro."
+},
+{
+"id": 573,
+"frase_ingles": "Can we make a quick stop?",
+"traducao": "Podemos fazer uma parada rápida?"
+},
+{
+"id": 574,
+"frase_ingles": "I'll be right back.",
+"traducao": "Já volto."
+},
+{
+"id": 575,
+"frase_ingles": "Hang on a second.",
+"traducao": "Espera um segundo."
+},
+{
+"id": 576,
+"frase_ingles": "Give me a second to check.",
+"traducao": "Me dá um segundo para verificar."
+},
+{
+"id": 577,
+"frase_ingles": "Let me check the map.",
+"traducao": "Deixa eu verificar o mapa."
+},
+{
+"id": 578,
+"frase_ingles": "Let me pull up the address.",
+"traducao": "Deixa eu abrir o endereço."
+},
+{
+"id": 579,
+"frase_ingles": "I have it saved on my phone.",
+"traducao": "Eu tenho isso salvo no celular."
+},
+{
+"id": 580,
+"frase_ingles": "My GPS is acting up.",
+"traducao": "Meu GPS está dando problema."
+},
+{
+"id": 581,
+"frase_ingles": "The map isn't loading.",
+"traducao": "O mapa não está carregando."
+},
+{
+"id": 582,
+"frase_ingles": "I lost my connection.",
+"traducao": "Perdi minha conexão."
+},
+{
+"id": 583,
+"frase_ingles": "Do you have a charger I can borrow?",
+"traducao": "Você tem um carregador que eu possa pegar emprestado?"
+},
+{
+"id": 584,
+"frase_ingles": "Can I use your phone for a second?",
+"traducao": "Posso usar seu telefone por um segundo?"
+},
+{
+"id": 585,
+"frase_ingles": "Could you call this number for me?",
+"traducao": "Você poderia ligar para este número para mim?"
+},
+{
+"id": 586,
+"frase_ingles": "Can you help me find this address?",
+"traducao": "Você pode me ajudar a encontrar este endereço?"
+},
+{
+"id": 587,
+"frase_ingles": "I'm looking for this place.",
+"traducao": "Estou procurando este lugar."
+},
+{
+"id": 588,
+"frase_ingles": "I can't find the entrance.",
+"traducao": "Não consigo encontrar a entrada."
+},
+{
+"id": 589,
+"frase_ingles": "I can't find the building.",
+"traducao": "Não consigo encontrar o prédio."
+},
+{
+"id": 590,
+"frase_ingles": "Which building is it?",
+"traducao": "Qual é o prédio?"
+},
+{
+"id": 591,
+"frase_ingles": "What floor is it on?",
+"traducao": "Em qual andar fica?"
+},
+{
+"id": 592,
+"frase_ingles": "Which floor should I go to?",
+"traducao": "Para qual andar devo ir?"
+},
+{
+"id": 593,
+"frase_ingles": "Where's the elevator?",
+"traducao": "Onde fica o elevador?"
+},
+{
+"id": 594,
+"frase_ingles": "Which elevator should I take?",
+"traducao": "Qual elevador devo pegar?"
+},
+{
+"id": 595,
+"frase_ingles": "Is there a staircase nearby?",
+"traducao": "Tem uma escada por perto?"
+},
+{
+"id": 596,
+"frase_ingles": "Where's the nearest entrance?",
+"traducao": "Onde fica a entrada mais próxima?"
+},
+{
+"id": 597,
+"frase_ingles": "Is this the main entrance?",
+"traducao": "Esta é a entrada principal?"
+},
+{
+"id": 598,
+"frase_ingles": "Where's the information desk?",
+"traducao": "Onde fica o balcão de informações?"
+},
+{
+"id": 599,
+"frase_ingles": "Could you point me to the information desk?",
+"traducao": "Você poderia me indicar onde fica o balcão de informações?"
+},
+{
+"id": 600,
+"frase_ingles": "I need some information about this area.",
+"traducao": "Preciso de algumas informações sobre esta região."
+},
+{
+"id": 601,
+"frase_ingles": "What would you recommend?",
+"traducao": "O que você recomendaria?"
+},
+{
+"id": 602,
+"frase_ingles": "What's the most popular way to get there?",
+"traducao": "Qual é a forma mais comum de chegar lá?"
+},
+{
+"id": 603,
+"frase_ingles": "What's the cheapest way to get there?",
+"traducao": "Qual é a maneira mais barata de chegar lá?"
+},
+{
+"id": 604,
+"frase_ingles": "What's the safest way to get there?",
+"traducao": "Qual é a maneira mais segura de chegar lá?"
+},
+{
+"id": 605,
+"frase_ingles": "What's the most convenient option?",
+"traducao": "Qual é a opção mais conveniente?"
+},
+{
+"id": 606,
+"frase_ingles": "Is it worth taking a taxi?",
+"traducao": "Vale a pena pegar um táxi?"
+},
+{
+"id": 607,
+"frase_ingles": "Is it worth taking the train?",
+"traducao": "Vale a pena pegar o trem?"
+},
+{
+"id": 608,
+"frase_ingles": "Would you recommend walking?",
+"traducao": "Você recomendaria ir a pé?"
+},
+{
+"id": 609,
+"frase_ingles": "Is there a better option?",
+"traducao": "Tem uma opção melhor?"
+},
+{
+"id": 610,
+"frase_ingles": "What would you do if you were me?",
+"traducao": "O que você faria se estivesse no meu lugar?"
+}
+]
+
 ]
