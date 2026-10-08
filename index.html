@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Quiz for Dad</title>
+  <style>
+    :root {
+      --primary: #58cc02;
+      --primary-dark: #46a302;
+      --secondary: #1cb0f6;
+      --secondary-dark: #1899d6;
+      --danger: #ff4b4b;
+      --bg: #f7f9fa;
+      --card-bg: #ffffff;
+      --border-color: #e5e5e5;
+      --text: #3c3c3c;
+      --text-muted: #777777;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 15px; }
+    
+    .quiz-card { 
+      background: var(--card-bg); 
+      width: 100%; 
+      max-width: 450px; 
+      border-radius: 20px; 
+      padding: 24px; 
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08); 
+      border: 2px solid var(--border-color); 
+      position: relative; 
+    }
+
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #f0f0f0; padding-bottom: 12px; }
+    .title { font-size: 1.1rem; color: var(--secondary-dark); font-weight: bold; }
+    .progress-tag { background: #f0f2f5; padding: 6px 12px; border-radius: 16px; font-size: 0.85rem; color: var(--text-muted); font-weight: bold; }
+    
+    .question-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 16px; line-height: 1.4; color: #222; }
+    
+    /* Mídias */
+    .media-container { margin-bottom: 16px; text-align: center; }
+    audio { width: 100%; margin-top: 8px; }
+    .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; }
+    .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px; }
+    
+    /* Opções */
+    .options-grid { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+    .opt-btn { 
+      background: #ffffff; 
+      border: 2px solid var(--border-color); 
+      color: var(--text); 
+      padding: 14px; 
+      border-radius: 14px; 
+      font-size: 1rem; 
+      font-weight: 600; 
+      cursor: pointer; 
+      transition: all 0.2s; 
+      text-align: left;
+      box-shadow: 0 3px 0 var(--border-color);
+    }
+    .opt-btn:hover { background: #f8f9fa; border-color: #ccc; }
+    
+    /* Ordenação */
+    .order-box { min-height: 55px; border: 2px dashed #d0d0d0; border-radius: 14px; padding: 8px; display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; align-items: center; background: #fafafa; }
+    .word-chip { background: var(--secondary); color: white; padding: 8px 16px; border-radius: 20px; font-weight: bold; cursor: pointer; user-select: none; box-shadow: 0 3px 0 var(--secondary-dark); }
+    .word-chip.pool { background: #ffffff; color: var(--text); border: 2px solid var(--border-color); box-shadow: 0 3px 0 var(--border-color); }
+
+    /* Botões */
+    .action-btn { 
+      width: 100%; 
+      background: var(--primary); 
+      color: white; 
+      border: none; 
+      padding: 16px; 
+      border-radius: 14px; 
+      font-size: 1.1rem; 
+      font-weight: bold; 
+      cursor: pointer; 
+      box-shadow: 0 4px 0 var(--primary-dark); 
+      transition: transform 0.1s;
+    }
+    .action-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--primary-dark); }
+
+    /* Feedback */
+    .feedback { margin-top: 15px; padding: 14px; border-radius: 12px; font-weight: bold; text-align: center; display: none; }
+    .feedback.correct { background: #d7ffb8; color: #2e7d32; border: 1px solid #a5d6a7; }
+    .feedback.wrong { background: #ffdfe0; color: #c62828; border: 1px solid #ef9a9a; }
+
+    /* Resultado Final */
+    .result-screen { text-align: center; padding: 20px 0; }
+    .result-score { font-size: 3.5rem; font-weight: 800; color: var(--primary); margin: 15px 0; }
+    .result-msg { font-size: 1.1rem; margin-bottom: 25px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<div class="quiz-card">
+  <div class="header">
+    <span class="title">English Challenge 🎯</span>
+    <span id="progress-indicator" class="progress-tag">1 / 7</span>
+  </div>
+
+  <!-- TELA DO QUIZ -->
+  <div id="quiz-view">
+    <div id="quiz-content">
+      <div class="question-title" id="prompt-text">Carregando desafio...</div>
+      <div class="media-container" id="media-box"></div>
+      <div id="interactive-area"></div>
+    </div>
+
+    <div id="feedback-box" class="feedback"></div>
+    <button id="main-action" class="action-btn" onclick="processarCliqueBotao()" style="margin-top: 15px;">VERIFICAR</button>
+  </div>
+
+  <!-- TELA DE RESULTADO FINAL -->
+  <div id="result-view" class="result-screen" style="display: none;">
+    <h2>Desafio Concluído! 🎉</h2>
+    <div class="result-score" id="final-score">0 / 7</div>
+    <p class="result-msg" id="final-message">Parabéns pelo empenho!</p>
+    <button class="action-btn" onclick="reiniciarQuiz()">JOGAR NOVAMENTE</button>
+  </div>
+</div>
+
+<script>
+  // BANCO DE DADOS DE EXEMPLO (Com YouTube e Áudio inclusos)
+  const PERGUNTAS_BANCO = [
+    {
+      "id": 1,
+      "tipo": "audio_video",
+      "pergunta": "Assista ao vídeo do YouTube e responda a pergunta:",
+      "media_type": "youtube",
+      "media_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", // Exemplo de URL de YouTube
+      "opcoes": ["A pessoa cantou", "A pessoa dançou", "A pessoa correu"],
+      "resposta_correta": "A pessoa cantou"
+    },
+    {
+      "id": 2,
+      "tipo": "audio_video",
+      "pergunta": "Escute o áudio e responda o que foi dito:",
+      "media_type": "audio",
+      "media_url": "https://www.w3schools.com/html/horse.mp3", // Exemplo de Áudio
+      "opcoes": ["Horse sound", "Cat sound", "Dog sound"],
+      "resposta_correta": "Horse sound"
+    },
+    {
+      "id": 3,
+      "tipo": "multipla_escolha",
+      "pergunta": "Como se diz 'Obrigado' em inglês?",
+      "opcoes": ["Thanks", "Hello", "Please"],
+      "resposta_correta": "Thanks"
+    },
+    {
+      "id": 4,
+      "tipo": "completar",
+      "pergunta": "Complete a frase: She ___ to school every day.",
+      "opcoes": ["goes", "go", "going"],
+      "resposta_correta": "goes"
+    },
+    {
+      "id": 5,
+      "tipo": "ordenar",
+      "pergunta": "Ordene as palavras para formar a frase correta:",
+      "palavras": ["like", "I", "coffee", "to", "drink"],
+      "resposta_correta": ["I", "like", "to", "drink", "coffee"]
+    },
+    {
+      "id": 6,
+      "tipo": "completar",
+      "pergunta": "Complete: They ___ playing football.",
+      "opcoes": ["are", "is", "am"],
+      "resposta_correta": "are"
+    },
+    {
+      "id": 7,
+      "tipo": "ordenar",
+      "pergunta": "Ordene a frase:",
+      "palavras": ["is", "My", "name", "John"],
+      "resposta_correta": ["My", "name", "is", "John"]
+    }
+  ];
+
+  const TOTAL_PERGUNTAS = 7;
+  let perguntasRodada = [];
+  let indicePerguntaAtual = 0;
+  let acertos = 0;
+  let perguntaAtual = null;
+  let respostaUsuario = null;
+  let aguardandoProxima = false;
+
+  function extrairYouTubeID(url) {
+    const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+    const match = url.match(regExp);
+    return (match && match[2].length === 11) ? match[2] : null;
+  }
+
+  function iniciarQuiz() {
+    perguntasRodada = [...PERGUNTAS_BANCO]
+      .sort(() => Math.random() - 0.5)
+      .slice(0, TOTAL_PERGUNTAS);
+
+    indicePerguntaAtual = 0;
+    acertos = 0;
+    
+    document.getElementById('quiz-view').style.display = 'block';
+    document.getElementById('result-view').style.display = 'none';
+    
+    carregarPergunta();
+  }
+
+  function carregarPergunta() {
+    aguardandoProxima = false;
+    respostaUsuario = null;
+    
+    document.getElementById('feedback-box').style.display = 'none';
+    const mainBtn = document.getElementById('main-action');
+    mainBtn.innerText = "VERIFICAR";
+    mainBtn.style.background = "var(--primary)";
+
+    perguntaAtual = perguntasRodada[indicePerguntaAtual];
+    document.getElementById('progress-indicator').innerText = `${indicePerguntaAtual + 1} / ${TOTAL_PERGUNTAS}`;
+
+    renderizarInterfacePergunta(perguntaAtual);
+  }
+
+  function renderizarInterfacePergunta(q) {
+    document.getElementById('prompt-text').innerText = q.pergunta;
+    const mediaBox = document.getElementById('media-box');
+    const area = document.getElementById('interactive-area');
+    mediaBox.innerHTML = '';
+    area.innerHTML = '';
+
+    // Renderiza YouTube ou Áudio
+    if (q.media_url) {
+      if (q.media_type === 'youtube') {
+        const videoId = extrairYouTubeID(q.media_url);
+        if (videoId) {
+          mediaBox.innerHTML = `
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
+            </div>`;
+        }
+      } else if (q.media_type === 'audio') {
+        mediaBox.innerHTML = `<audio controls src="${q.media_url}"></audio>`;
+      }
+    }
+
+    if (q.tipo === 'multipla_escolha' || q.tipo === 'completar' || q.tipo === 'audio_video') {
+      const grid = document.createElement('div');
+      grid.className = 'options-grid';
+      q.opcoes.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'opt-btn';
+        btn.innerText = opt;
+        btn.onclick = () => {
+          if (aguardandoProxima) return;
+          document.querySelectorAll('.opt-btn').forEach(b => {
+            b.style.borderColor = 'var(--border-color)';
+            b.style.background = '#ffffff';
+          });
+          btn.style.borderColor = 'var(--secondary)';
+          btn.style.background = '#e8f4f9';
+          respostaUsuario = opt;
+        };
+        grid.appendChild(btn);
+      });
+      area.appendChild(grid);
+    } else if (q.tipo === 'ordenar') {
+      const targetBox = document.createElement('div');
+      targetBox.className = 'order-box';
+      targetBox.id = 'target-words';
+
+      const poolBox = document.createElement('div');
+      poolBox.className = 'order-box';
+      
+      q.palavras.sort(() => Math.random() - 0.5).forEach((word, idx) => {
+        const chip = document.createElement('div');
+        chip.className = 'word-chip pool';
+        chip.innerText = word;
+        chip.id = `chip-${idx}`;
+        chip.onclick = () => {
+          if (!aguardandoProxima) moverPalavra(chip, targetBox, poolBox);
+        };
+        poolBox.appendChild(chip);
+      });
+
+      area.appendChild(targetBox);
+      area.appendChild(poolBox);
+    }
+  }
+
+  function moverPalavra(chip, targetBox, poolBox) {
+    if (chip.parentElement === poolBox) {
+      chip.classList.remove('pool');
+      targetBox.appendChild(chip);
+    } else {
+      chip.classList.add('pool');
+      poolBox.appendChild(chip);
+    }
+  }
+
+  function processarCliqueBotao() {
+    if (aguardandoProxima) {
+      avancarProximaPergunta();
+    } else {
+      verificarResposta();
+    }
+  }
+
+  function verificarResposta() {
+    const feedback = document.getElementById('feedback-box');
+    let acertou = false;
+
+    if (perguntaAtual.tipo === 'ordenar') {
+      const chips = document.querySelectorAll('#target-words .word-chip');
+      const montado = Array.from(chips).map(c => c.innerText);
+      acertou = JSON.stringify(montado) === JSON.stringify(perguntaAtual.resposta_correta);
+    } else {
+      if (!respostaUsuario) {
+        alert("Por favor, selecione uma resposta!");
+        return;
+      }
+      acertou = respostaUsuario === perguntaAtual.resposta_correta;
+    }
+
+    feedback.style.display = 'block';
+    if (acertou) {
+      acertos++;
+      feedback.className = 'feedback correct';
+      feedback.innerText = 'Excelente! Você acertou! 🎉';
+    } else {
+      feedback.className = 'feedback wrong';
+      feedback.innerText = 'Ops! Resposta incorreta.';
+    }
+
+    aguardandoProxima = true;
+    const mainBtn = document.getElementById('main-action');
+    mainBtn.innerText = (indicePerguntaAtual + 1 < TOTAL_PERGUNTAS) ? "PRÓXIMA PERGUNTA" : "VER RESULTADO FINAL";
+    mainBtn.style.background = "var(--secondary)";
+  }
+
+  function avancarProximaPergunta() {
+    indicePerguntaAtual++;
+    if (indicePerguntaAtual < TOTAL_PERGUNTAS) {
+      carregarPergunta();
+    } else {
+      exibirResultadoFinal();
+    }
+  }
+
+  function exibirResultadoFinal() {
+    document.getElementById('quiz-view').style.display = 'none';
+    document.getElementById('result-view').style.display = 'block';
+    document.getElementById('progress-indicator').innerText = "Fim!";
+
+    document.getElementById('final-score').innerText = `${acertos} / ${TOTAL_PERGUNTAS}`;
+    
+    const msg = document.getElementById('final-message');
+    if (acertos === TOTAL_PERGUNTAS) {
+      msg.innerText = "Incrível! Você acertou tudo! 🏆";
+    } else if (acertos >= 4) {
+      msg.innerText = "Muito bem! Bom trabalho! 👏";
+    } else {
+      msg.innerText = "Bom esforço! Continue praticando! 💪";
+    }
+  }
+
+  function reiniciarQuiz() {
+    iniciarQuiz();
+  }
+
+  window.onload = iniciarQuiz;
+</script>
+</body>
+</html>
