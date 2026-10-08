@@ -3,87 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>English Challenge for Dad</title>
+  <title>English Daily Phrases</title>
   <style>
     :root {
-      --primary: #58cc02;
-      --primary-dark: #46a302;
-      --secondary: #1cb0f6;
-      --secondary-dark: #1899d6;
-      --danger: #ff4b4b;
+      --primary: #1cb0f6;
+      --primary-dark: #1899d6;
       --bg: #f7f9fa;
       --card-bg: #ffffff;
       --border-color: #e5e5e5;
-      --text: #3c3c3c;
+      --text: #2b2b2b;
       --text-muted: #777777;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
     body { background-color: var(--bg); color: var(--text); display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 15px; }
     
-    .quiz-card { 
+    .card { 
       background: var(--card-bg); 
       width: 100%; 
       max-width: 450px; 
       border-radius: 20px; 
       padding: 24px; 
-      box-shadow: 0 10px 25px rgba(0,0,0,0.08); 
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06); 
       border: 2px solid var(--border-color); 
-      position: relative; 
     }
 
     .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #f0f0f0; padding-bottom: 12px; }
-    .title { font-size: 1.1rem; color: var(--secondary-dark); font-weight: bold; }
+    .title { font-size: 1.1rem; color: var(--primary-dark); font-weight: bold; }
     .progress-tag { background: #f0f2f5; padding: 6px 12px; border-radius: 16px; font-size: 0.85rem; color: var(--text-muted); font-weight: bold; }
     
-    .question-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 12px; line-height: 1.4; color: #222; }
-    
-    /* Áudio / Pronúncia */
-    .audio-btn-container { margin-bottom: 16px; text-align: center; }
-    .audio-speak-btn {
-      background: #e8f4f9;
-      border: 2px solid var(--secondary);
-      color: var(--secondary-dark);
-      padding: 10px 18px;
-      border-radius: 30px;
-      font-weight: bold;
-      cursor: pointer;
-      font-size: 0.95rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      transition: all 0.2s;
-    }
-    .audio-speak-btn:hover { background: #d0ebf7; }
+    .phrase-container { margin: 25px 0; text-align: center; }
+    .english-text { font-size: 1.5rem; font-weight: 700; color: #111; margin-bottom: 12px; line-height: 1.3; }
+    .translation-text { font-size: 1.15rem; color: #555; font-weight: 500; background: #f0f8ff; padding: 12px; border-radius: 12px; border: 1px solid #d0e8ff; }
 
-    /* Mídias Externas */
-    .media-container { margin-bottom: 16px; text-align: center; }
-    .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; }
-    .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px; }
-    
-    /* Opções */
-    .options-grid { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
-    .opt-btn { 
-      background: #ffffff; 
-      border: 2px solid var(--border-color); 
-      color: var(--text); 
-      padding: 14px; 
-      border-radius: 14px; 
-      font-size: 1rem; 
-      font-weight: 600; 
-      cursor: pointer; 
-      transition: all 0.2s; 
-      text-align: left;
-      box-shadow: 0 3px 0 var(--border-color);
-    }
-    .opt-btn:hover { background: #f8f9fa; border-color: #ccc; }
-    
-    /* Ordenação */
-    .order-box { min-height: 55px; border: 2px dashed #d0d0d0; border-radius: 14px; padding: 8px; display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; align-items: center; background: #fafafa; }
-    .word-chip { background: var(--secondary); color: white; padding: 8px 16px; border-radius: 20px; font-weight: bold; cursor: pointer; user-select: none; box-shadow: 0 3px 0 var(--secondary-dark); }
-    .word-chip.pool { background: #ffffff; color: var(--text); border: 2px solid var(--border-color); box-shadow: 0 3px 0 var(--border-color); }
-
-    /* Botões de Ação */
     .action-btn { 
       width: 100%; 
       background: var(--primary); 
@@ -99,279 +51,94 @@
     }
     .action-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--primary-dark); }
 
-    /* Feedback */
-    .feedback { margin-top: 15px; padding: 14px; border-radius: 12px; font-weight: bold; text-align: center; display: none; }
-    .feedback.correct { background: #d7ffb8; color: #2e7d32; border: 1px solid #a5d6a7; }
-    .feedback.wrong { background: #ffdfe0; color: #c62828; border: 1px solid #ef9a9a; }
-    .translation-hint { font-size: 0.9rem; font-weight: normal; margin-top: 6px; color: #444; }
-
-    /* Resultado Final */
-    .result-screen { text-align: center; padding: 20px 0; }
-    .result-score { font-size: 3.5rem; font-weight: 800; color: var(--primary); margin: 15px 0; }
-    .result-msg { font-size: 1.1rem; margin-bottom: 25px; color: var(--text-muted); }
+    .end-screen { text-align: center; padding: 20px 0; }
+    .end-title { font-size: 1.5rem; font-weight: bold; color: var(--primary-dark); margin-bottom: 10px; }
   </style>
 </head>
 <body>
 
-<div class="quiz-card">
+<div class="card">
   <div class="header">
-    <span class="title">English Challenge 🎯</span>
+    <span class="title">Frases do Dia 📖</span>
     <span id="progress-indicator" class="progress-tag">1 / 7</span>
   </div>
 
-  <!-- TELA DO QUIZ -->
-  <div id="quiz-view">
-    <div id="quiz-content">
-      <div class="question-title" id="prompt-text">Carregando desafio...</div>
-      <div class="audio-btn-container" id="audio-box" style="display: none;">
-        <button class="audio-speak-btn" onclick="falarTextoIngles()">
-          🔊 Ouvir Pronúncia
-        </button>
-      </div>
-      <div class="media-container" id="media-box"></div>
-      <div id="interactive-area"></div>
+  <!-- TELA DA FRASE -->
+  <div id="phrase-view">
+    <div class="phrase-container">
+      <div class="english-text" id="en-phrase">Carregando...</div>
+      <div class="translation-text" id="pt-translation">...</div>
     </div>
-
-    <div id="feedback-box" class="feedback"></div>
-    <button id="main-action" class="action-btn" onclick="processarCliqueBotao()" style="margin-top: 15px;">VERIFICAR</button>
+    <button id="next-btn" class="action-btn" onclick="proximaFrase()">PRÓXIMA FRASE</button>
   </div>
 
-  <!-- TELA DE RESULTADO FINAL -->
-  <div id="result-view" class="result-screen" style="display: none;">
-    <h2>Desafio Concluído! 🎉</h2>
-    <div class="result-score" id="final-score">0 / 7</div>
-    <p class="result-msg" id="final-message">Parabéns pelo empenho!</p>
-    <button class="action-btn" onclick="reiniciarQuiz()">JOGAR NOVAMENTE</button>
+  <!-- TELA FINAL -->
+  <div id="end-view" class="end-screen" style="display: none;">
+    <div class="end-title">Estudo Concluído! 🎉</div>
+    <p style="color: #666; margin-bottom: 20px;">Você revisou as frases de hoje com sucesso.</p>
+    <button class="action-btn" onclick="iniciarSessao()">VER OUTRAS FRASES</button>
   </div>
 </div>
 
 <script>
-  // ATENÇÃO: Substitua pelo seu link do raw do GitHub no passo final!
+  // Mantém o link do seu arquivo perguntas.json no GitHub
   const URL_BANCO_GITHUB = "https://raw.githubusercontent.com/bm545095-afk/02INGLES/refs/heads/main/perguntas.json";
 
-  const TOTAL_PERGUNTAS = 7;
+  const TOTAL_POR_SESSAO = 7;
   let bancoCompleto = [];
-  let perguntasRodada = [];
-  let indicePerguntaAtual = 0;
-  let acertos = 0;
-  let perguntaAtual = null;
-  let respostaUsuario = null;
-  let aguardandoProxima = false;
+  let frasesSessao = [];
+  let indiceAtual = 0;
 
-  // Função para Voz Automática do Google / Web Speech API
-  function falarTextoIngles() {
-    if (!perguntaAtual || !perguntaAtual.frase_ingles) return;
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(perguntaAtual.frase_ingles);
-      utterance.lang = 'en-US';
-      utterance.rate = 0.85; // Velocidade adequada para aprendizado
-      window.speechSynthesis.speak(utterance);
-    }
-  }
-
-  function extrairYouTubeID(url) {
-    const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-    const match = url.match(regExp);
-    return (match && match[2].length === 11) ? match[2] : null;
-  }
-
-  async function carregarBancoDeDados() {
+  async function carregarBanco() {
     try {
       const res = await fetch(URL_BANCO_GITHUB);
       bancoCompleto = await res.json();
-      iniciarQuiz();
+      iniciarSessao();
     } catch (e) {
-      // Caso dê erro ou esteja rodando local sem o link configurado ainda:
-      document.getElementById('prompt-text').innerText = "Configure o link do GitHub no código para carregar as perguntas!";
+      document.getElementById('en-phrase').innerText = "Erro ao carregar o banco de frases.";
     }
   }
 
-  function iniciarQuiz() {
+  function iniciarSessao() {
     if (!bancoCompleto || bancoCompleto.length === 0) return;
 
-    perguntasRodada = [...bancoCompleto]
+    // Sorteia 7 frases do seu banco
+    frasesSessao = [...bancoCompleto]
       .sort(() => Math.random() - 0.5)
-      .slice(0, TOTAL_PERGUNTAS);
+      .slice(0, TOTAL_POR_SESSAO);
 
-    indicePerguntaAtual = 0;
-    acertos = 0;
+    indiceAtual = 0;
+    document.getElementById('phrase-view').style.display = 'block';
+    document.getElementById('end-view').style.display = 'none';
+
+    exibirFrase();
+  }
+
+  function exibirFrase() {
+    const item = frasesSessao[indiceAtual];
     
-    document.getElementById('quiz-view').style.display = 'block';
-    document.getElementById('result-view').style.display = 'none';
+    // Suporta o campo frase_ingles ou pergunta
+    document.getElementById('en-phrase').innerText = item.frase_ingles || item.pergunta;
+    document.getElementById('pt-translation').innerText = item.traducao;
+
+    document.getElementById('progress-indicator').innerText = `${indiceAtual + 1} / ${TOTAL_POR_SESSAO}`;
     
-    carregarPergunta();
+    const btn = document.getElementById('next-btn');
+    btn.innerText = (indiceAtual + 1 < TOTAL_POR_SESSAO) ? "PRÓXIMA FRASE" : "CONCLUIR ESTUDO";
   }
 
-  function carregarPergunta() {
-    aguardandoProxima = false;
-    respostaUsuario = null;
-    
-    document.getElementById('feedback-box').style.display = 'none';
-    const mainBtn = document.getElementById('main-action');
-    mainBtn.innerText = "VERIFICAR";
-    mainBtn.style.background = "var(--primary)";
-
-    perguntaAtual = perguntasRodada[indicePerguntaAtual];
-    document.getElementById('progress-indicator').innerText = `${indicePerguntaAtual + 1} / ${TOTAL_PERGUNTAS}`;
-
-    renderizarInterfacePergunta(perguntaAtual);
-  }
-
-  function renderizarInterfacePergunta(q) {
-    document.getElementById('prompt-text').innerText = q.pergunta;
-    const audioBox = document.getElementById('audio-box');
-    const mediaBox = document.getElementById('media-box');
-    const area = document.getElementById('interactive-area');
-    
-    audioBox.style.display = 'none';
-    mediaBox.innerHTML = '';
-    area.innerHTML = '';
-
-    // Botão de Áudio Nativo se houver frase em inglês
-    if (q.frase_ingles) {
-      audioBox.style.display = 'block';
-    }
-
-    // Renderiza mídias de vídeo/áudio externo se houver
-    if (q.media_url) {
-      if (q.media_type === 'youtube') {
-        const videoId = extrairYouTubeID(q.media_url);
-        if (videoId) {
-          mediaBox.innerHTML = `<div class="video-container"><iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe></div>`;
-        }
-      } else if (q.media_type === 'audio') {
-        mediaBox.innerHTML = `<audio controls src="${q.media_url}"></audio>`;
-      }
-    }
-
-    if (q.tipo === 'multipla_escolha' || q.tipo === 'completar' || q.tipo === 'audio_video') {
-      const grid = document.createElement('div');
-      grid.className = 'options-grid';
-      q.opcoes.forEach(opt => {
-        const btn = document.createElement('button');
-        btn.className = 'opt-btn';
-        btn.innerText = opt;
-        btn.onclick = () => {
-          if (aguardandoProxima) return;
-          document.querySelectorAll('.opt-btn').forEach(b => {
-            b.style.borderColor = 'var(--border-color)';
-            b.style.background = '#ffffff';
-          });
-          btn.style.borderColor = 'var(--secondary)';
-          btn.style.background = '#e8f4f9';
-          respostaUsuario = opt;
-        };
-        grid.appendChild(btn);
-      });
-      area.appendChild(grid);
-    } else if (q.tipo === 'ordenar') {
-      const targetBox = document.createElement('div');
-      targetBox.className = 'order-box';
-      targetBox.id = 'target-words';
-
-      const poolBox = document.createElement('div');
-      poolBox.className = 'order-box';
-      
-      q.palavras.sort(() => Math.random() - 0.5).forEach((word, idx) => {
-        const chip = document.createElement('div');
-        chip.className = 'word-chip pool';
-        chip.innerText = word;
-        chip.id = `chip-${idx}`;
-        chip.onclick = () => {
-          if (!aguardandoProxima) moverPalavra(chip, targetBox, poolBox);
-        };
-        poolBox.appendChild(chip);
-      });
-
-      area.appendChild(targetBox);
-      area.appendChild(poolBox);
-    }
-  }
-
-  function moverPalavra(chip, targetBox, poolBox) {
-    if (chip.parentElement === poolBox) {
-      chip.classList.remove('pool');
-      targetBox.appendChild(chip);
+  function proximaFrase() {
+    indiceAtual++;
+    if (indiceAtual < TOTAL_POR_SESSAO) {
+      exibirFrase();
     } else {
-      chip.classList.add('pool');
-      poolBox.appendChild(chip);
+      document.getElementById('phrase-view').style.display = 'none';
+      document.getElementById('end-view').style.display = 'block';
+      document.getElementById('progress-indicator').innerText = "Fim!";
     }
   }
 
-  function processarCliqueBotao() {
-    if (aguardandoProxima) {
-      avancarProximaPergunta();
-    } else {
-      verificarResposta();
-    }
-  }
-
-  function verificarResposta() {
-    const feedback = document.getElementById('feedback-box');
-    let acertou = false;
-
-    if (perguntaAtual.tipo === 'ordenar') {
-      const chips = document.querySelectorAll('#target-words .word-chip');
-      const montado = Array.from(chips).map(c => c.innerText);
-      acertou = JSON.stringify(montado) === JSON.stringify(perguntaAtual.resposta_correta);
-    } else {
-      if (!respostaUsuario) {
-        alert("Por favor, selecione uma resposta!");
-        return;
-      }
-      acertou = respostaUsuario === perguntaAtual.resposta_correta;
-    }
-
-    feedback.style.display = 'block';
-    let textoTraducao = perguntaAtual.traducao ? `<div class="translation-hint"><b>Tradução:</b> ${perguntaAtual.traducao}</div>` : '';
-
-    if (acertou) {
-      acertos++;
-      feedback.className = 'feedback correct';
-      feedback.innerHTML = `Excelente! Você acertou! 🎉 ${textoTraducao}`;
-    } else {
-      feedback.className = 'feedback wrong';
-      feedback.innerHTML = `Ops! Resposta incorreta. ${textoTraducao}`;
-    }
-
-    aguardandoProxima = true;
-    const mainBtn = document.getElementById('main-action');
-    mainBtn.innerText = (indicePerguntaAtual + 1 < TOTAL_PERGUNTAS) ? "PRÓXIMA PERGUNTA" : "VER RESULTADO FINAL";
-    mainBtn.style.background = "var(--secondary)";
-  }
-
-  function avancarProximaPergunta() {
-    indicePerguntaAtual++;
-    if (indicePerguntaAtual < TOTAL_PERGUNTAS) {
-      carregarPergunta();
-    } else {
-      exibirResultadoFinal();
-    }
-  }
-
-  function exibirResultadoFinal() {
-    document.getElementById('quiz-view').style.display = 'none';
-    document.getElementById('result-view').style.display = 'block';
-    document.getElementById('progress-indicator').innerText = "Fim!";
-
-    document.getElementById('final-score').innerText = `${acertos} / ${TOTAL_PERGUNTAS}`;
-    
-    const msg = document.getElementById('final-message');
-    if (acertos === TOTAL_PERGUNTAS) {
-      msg.innerText = "Incrível! Você acertou todas as frases! 🏆";
-    } else if (acertos >= 4) {
-      msg.innerText = "Muito bem! Seu inglês do dia a dia está melhorando! 👏";
-    } else {
-      msg.innerText = "Bom esforço! Continue praticando para fixar as frases! 💪";
-    }
-  }
-
-  function reiniciarQuiz() {
-    iniciarQuiz();
-  }
-
-  window.onload = carregarBancoDeDados;
+  window.onload = carregarBanco;
 </script>
 </body>
 </html>
