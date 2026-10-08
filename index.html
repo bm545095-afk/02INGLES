@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>English Quiz for Dad</title>
+  <title>English Challenge for Dad</title>
   <style>
     :root {
       --primary: #58cc02;
@@ -36,11 +36,28 @@
     .title { font-size: 1.1rem; color: var(--secondary-dark); font-weight: bold; }
     .progress-tag { background: #f0f2f5; padding: 6px 12px; border-radius: 16px; font-size: 0.85rem; color: var(--text-muted); font-weight: bold; }
     
-    .question-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 16px; line-height: 1.4; color: #222; }
+    .question-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 12px; line-height: 1.4; color: #222; }
     
-    /* Mídias */
+    /* Áudio / Pronúncia */
+    .audio-btn-container { margin-bottom: 16px; text-align: center; }
+    .audio-speak-btn {
+      background: #e8f4f9;
+      border: 2px solid var(--secondary);
+      color: var(--secondary-dark);
+      padding: 10px 18px;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+    .audio-speak-btn:hover { background: #d0ebf7; }
+
+    /* Mídias Externas */
     .media-container { margin-bottom: 16px; text-align: center; }
-    audio { width: 100%; margin-top: 8px; }
     .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; }
     .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px; }
     
@@ -66,7 +83,7 @@
     .word-chip { background: var(--secondary); color: white; padding: 8px 16px; border-radius: 20px; font-weight: bold; cursor: pointer; user-select: none; box-shadow: 0 3px 0 var(--secondary-dark); }
     .word-chip.pool { background: #ffffff; color: var(--text); border: 2px solid var(--border-color); box-shadow: 0 3px 0 var(--border-color); }
 
-    /* Botões */
+    /* Botões de Ação */
     .action-btn { 
       width: 100%; 
       background: var(--primary); 
@@ -86,6 +103,7 @@
     .feedback { margin-top: 15px; padding: 14px; border-radius: 12px; font-weight: bold; text-align: center; display: none; }
     .feedback.correct { background: #d7ffb8; color: #2e7d32; border: 1px solid #a5d6a7; }
     .feedback.wrong { background: #ffdfe0; color: #c62828; border: 1px solid #ef9a9a; }
+    .translation-hint { font-size: 0.9rem; font-weight: normal; margin-top: 6px; color: #444; }
 
     /* Resultado Final */
     .result-screen { text-align: center; padding: 20px 0; }
@@ -105,6 +123,11 @@
   <div id="quiz-view">
     <div id="quiz-content">
       <div class="question-title" id="prompt-text">Carregando desafio...</div>
+      <div class="audio-btn-container" id="audio-box" style="display: none;">
+        <button class="audio-speak-btn" onclick="falarTextoIngles()">
+          🔊 Ouvir Pronúncia
+        </button>
+      </div>
       <div class="media-container" id="media-box"></div>
       <div id="interactive-area"></div>
     </div>
@@ -123,64 +146,11 @@
 </div>
 
 <script>
-  // BANCO DE DADOS DE EXEMPLO (Com YouTube e Áudio inclusos)
-  const PERGUNTAS_BANCO = [
-    {
-      "id": 1,
-      "tipo": "audio_video",
-      "pergunta": "Assista ao vídeo do YouTube e responda a pergunta:",
-      "media_type": "youtube",
-      "media_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", // Exemplo de URL de YouTube
-      "opcoes": ["A pessoa cantou", "A pessoa dançou", "A pessoa correu"],
-      "resposta_correta": "A pessoa cantou"
-    },
-    {
-      "id": 2,
-      "tipo": "audio_video",
-      "pergunta": "Escute o áudio e responda o que foi dito:",
-      "media_type": "audio",
-      "media_url": "https://www.w3schools.com/html/horse.mp3", // Exemplo de Áudio
-      "opcoes": ["Horse sound", "Cat sound", "Dog sound"],
-      "resposta_correta": "Horse sound"
-    },
-    {
-      "id": 3,
-      "tipo": "multipla_escolha",
-      "pergunta": "Como se diz 'Obrigado' em inglês?",
-      "opcoes": ["Thanks", "Hello", "Please"],
-      "resposta_correta": "Thanks"
-    },
-    {
-      "id": 4,
-      "tipo": "completar",
-      "pergunta": "Complete a frase: She ___ to school every day.",
-      "opcoes": ["goes", "go", "going"],
-      "resposta_correta": "goes"
-    },
-    {
-      "id": 5,
-      "tipo": "ordenar",
-      "pergunta": "Ordene as palavras para formar a frase correta:",
-      "palavras": ["like", "I", "coffee", "to", "drink"],
-      "resposta_correta": ["I", "like", "to", "drink", "coffee"]
-    },
-    {
-      "id": 6,
-      "tipo": "completar",
-      "pergunta": "Complete: They ___ playing football.",
-      "opcoes": ["are", "is", "am"],
-      "resposta_correta": "are"
-    },
-    {
-      "id": 7,
-      "tipo": "ordenar",
-      "pergunta": "Ordene a frase:",
-      "palavras": ["is", "My", "name", "John"],
-      "resposta_correta": ["My", "name", "is", "John"]
-    }
-  ];
+  // ATENÇÃO: Substitua pelo seu link do raw do GitHub no passo final!
+  const URL_BANCO_GITHUB = "https://raw.githubusercontent.com/SEU-USUARIO/quiz-ingles-pai/main/perguntas.json";
 
   const TOTAL_PERGUNTAS = 7;
+  let bancoCompleto = [];
   let perguntasRodada = [];
   let indicePerguntaAtual = 0;
   let acertos = 0;
@@ -188,14 +158,39 @@
   let respostaUsuario = null;
   let aguardandoProxima = false;
 
+  // Função para Voz Automática do Google / Web Speech API
+  function falarTextoIngles() {
+    if (!perguntaAtual || !perguntaAtual.frase_ingles) return;
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(perguntaAtual.frase_ingles);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.85; // Velocidade adequada para aprendizado
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+
   function extrairYouTubeID(url) {
     const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
     const match = url.match(regExp);
     return (match && match[2].length === 11) ? match[2] : null;
   }
 
+  async function carregarBancoDeDados() {
+    try {
+      const res = await fetch(URL_BANCO_GITHUB);
+      bancoCompleto = await res.json();
+      iniciarQuiz();
+    } catch (e) {
+      // Caso dê erro ou esteja rodando local sem o link configurado ainda:
+      document.getElementById('prompt-text').innerText = "Configure o link do GitHub no código para carregar as perguntas!";
+    }
+  }
+
   function iniciarQuiz() {
-    perguntasRodada = [...PERGUNTAS_BANCO]
+    if (!bancoCompleto || bancoCompleto.length === 0) return;
+
+    perguntasRodada = [...bancoCompleto]
       .sort(() => Math.random() - 0.5)
       .slice(0, TOTAL_PERGUNTAS);
 
@@ -225,20 +220,25 @@
 
   function renderizarInterfacePergunta(q) {
     document.getElementById('prompt-text').innerText = q.pergunta;
+    const audioBox = document.getElementById('audio-box');
     const mediaBox = document.getElementById('media-box');
     const area = document.getElementById('interactive-area');
+    
+    audioBox.style.display = 'none';
     mediaBox.innerHTML = '';
     area.innerHTML = '';
 
-    // Renderiza YouTube ou Áudio
+    // Botão de Áudio Nativo se houver frase em inglês
+    if (q.frase_ingles) {
+      audioBox.style.display = 'block';
+    }
+
+    // Renderiza mídias de vídeo/áudio externo se houver
     if (q.media_url) {
       if (q.media_type === 'youtube') {
         const videoId = extrairYouTubeID(q.media_url);
         if (videoId) {
-          mediaBox.innerHTML = `
-            <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
-            </div>`;
+          mediaBox.innerHTML = `<div class="video-container"><iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe></div>`;
         }
       } else if (q.media_type === 'audio') {
         mediaBox.innerHTML = `<audio controls src="${q.media_url}"></audio>`;
@@ -324,13 +324,15 @@
     }
 
     feedback.style.display = 'block';
+    let textoTraducao = perguntaAtual.traducao ? `<div class="translation-hint"><b>Tradução:</b> ${perguntaAtual.traducao}</div>` : '';
+
     if (acertou) {
       acertos++;
       feedback.className = 'feedback correct';
-      feedback.innerText = 'Excelente! Você acertou! 🎉';
+      feedback.innerHTML = `Excelente! Você acertou! 🎉 ${textoTraducao}`;
     } else {
       feedback.className = 'feedback wrong';
-      feedback.innerText = 'Ops! Resposta incorreta.';
+      feedback.innerHTML = `Ops! Resposta incorreta. ${textoTraducao}`;
     }
 
     aguardandoProxima = true;
@@ -357,11 +359,11 @@
     
     const msg = document.getElementById('final-message');
     if (acertos === TOTAL_PERGUNTAS) {
-      msg.innerText = "Incrível! Você acertou tudo! 🏆";
+      msg.innerText = "Incrível! Você acertou todas as frases! 🏆";
     } else if (acertos >= 4) {
-      msg.innerText = "Muito bem! Bom trabalho! 👏";
+      msg.innerText = "Muito bem! Seu inglês do dia a dia está melhorando! 👏";
     } else {
-      msg.innerText = "Bom esforço! Continue praticando! 💪";
+      msg.innerText = "Bom esforço! Continue praticando para fixar as frases! 💪";
     }
   }
 
@@ -369,7 +371,7 @@
     iniciarQuiz();
   }
 
-  window.onload = iniciarQuiz;
+  window.onload = carregarBancoDeDados;
 </script>
 </body>
 </html>
