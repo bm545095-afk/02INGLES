@@ -32,24 +32,56 @@
     .title { font-size: 1.1rem; color: var(--primary-dark); font-weight: bold; }
     .progress-tag { background: #f0f2f5; padding: 6px 12px; border-radius: 16px; font-size: 0.85rem; color: var(--text-muted); font-weight: bold; }
     
-    .phrase-container { margin: 25px 0; text-align: center; }
-    .english-text { font-size: 1.5rem; font-weight: 700; color: #111; margin-bottom: 12px; line-height: 1.3; }
-    .translation-text { font-size: 1.15rem; color: #555; font-weight: 500; background: #f0f8ff; padding: 12px; border-radius: 12px; border: 1px solid #d0e8ff; }
+    .phrase-container { margin: 20px 0; text-align: center; }
+    .english-text { font-size: 1.4rem; font-weight: 700; color: #111; margin-bottom: 12px; line-height: 1.3; }
+    .translation-text { font-size: 1.1rem; color: #555; font-weight: 500; background: #f0f8ff; padding: 12px; border-radius: 12px; border: 1px solid #d0e8ff; }
+
+    /* Botão de Reouvir Áudio */
+    .audio-btn {
+      background: none;
+      border: none;
+      color: var(--primary-dark);
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .audio-btn:hover { text-decoration: underline; }
+
+    /* Layout de Navegação com Botões Anterior e Próxima */
+    .button-group {
+      display: flex;
+      gap: 10px;
+    }
 
     .action-btn { 
-      width: 100%; 
+      flex: 1;
       background: var(--primary); 
       color: white; 
       border: none; 
-      padding: 16px; 
+      padding: 14px; 
       border-radius: 14px; 
-      font-size: 1.1rem; 
+      font-size: 1rem; 
       font-weight: bold; 
       cursor: pointer; 
       box-shadow: 0 4px 0 var(--primary-dark); 
       transition: transform 0.1s;
     }
     .action-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--primary-dark); }
+    .action-btn.secondary-btn {
+      background: #ffffff;
+      color: var(--text);
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 0 var(--border-color);
+    }
+    .action-btn.secondary-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
 
     .end-screen { text-align: center; padding: 20px 0; }
     .end-title { font-size: 1.5rem; font-weight: bold; color: var(--primary-dark); margin-bottom: 10px; }
@@ -67,9 +99,14 @@
   <div id="phrase-view">
     <div class="phrase-container">
       <div class="english-text" id="en-phrase">Carregando...</div>
+      <button class="audio-btn" onclick="tocarAudioAutomatico()">🔊 Ouvir Novamente</button>
       <div class="translation-text" id="pt-translation">...</div>
     </div>
-    <button id="next-btn" class="action-btn" onclick="proximaFrase()">PRÓXIMA FRASE</button>
+
+    <div class="button-group">
+      <button id="prev-btn" class="action-btn secondary-btn" onclick="fraseAnterior()">ANTERIOR</button>
+      <button id="next-btn" class="action-btn" onclick="proximaFrase()">PRÓXIMA</button>
+    </div>
   </div>
 
   <!-- TELA FINAL -->
@@ -81,13 +118,26 @@
 </div>
 
 <script>
-  // Mantém o link do seu arquivo perguntas.json no GitHub
   const URL_BANCO_GITHUB = "https://raw.githubusercontent.com/bm545095-afk/02INGLES/refs/heads/main/perguntas.json";
 
   const TOTAL_POR_SESSAO = 7;
   let bancoCompleto = [];
   let frasesSessao = [];
   let indiceAtual = 0;
+
+  // Função para Tocar o Áudio Automaticamente com Voz em Inglês
+  function tocarAudioAutomatico() {
+    const texto = frasesSessao[indiceAtual]?.frase_ingles || frasesSessao[indiceAtual]?.pergunta;
+    if (!texto) return;
+
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel(); // Cancela áudios pendentes
+      const utterance = new SpeechSynthesisUtterance(texto);
+      utterance.lang = 'en-US'; // Idioma Inglês Americano
+      utterance.rate = 0.85; // Velocidade adequada para compreensão
+      window.speechSynthesis.speak(utterance);
+    }
+  }
 
   async function carregarBanco() {
     try {
@@ -102,7 +152,6 @@
   function iniciarSessao() {
     if (!bancoCompleto || bancoCompleto.length === 0) return;
 
-    // Sorteia 7 frases do seu banco
     frasesSessao = [...bancoCompleto]
       .sort(() => Math.random() - 0.5)
       .slice(0, TOTAL_POR_SESSAO);
@@ -117,24 +166,38 @@
   function exibirFrase() {
     const item = frasesSessao[indiceAtual];
     
-    // Suporta o campo frase_ingles ou pergunta
     document.getElementById('en-phrase').innerText = item.frase_ingles || item.pergunta;
     document.getElementById('pt-translation').innerText = item.traducao;
 
     document.getElementById('progress-indicator').innerText = `${indiceAtual + 1} / ${TOTAL_POR_SESSAO}`;
     
-    const btn = document.getElementById('next-btn');
-    btn.innerText = (indiceAtual + 1 < TOTAL_POR_SESSAO) ? "PRÓXIMA FRASE" : "CONCLUIR ESTUDO";
+    // Controle do Botão Anterior
+    const prevBtn = document.getElementById('prev-btn');
+    prevBtn.disabled = (indiceAtual === 0);
+
+    // Controle do Botão Próximo
+    const nextBtn = document.getElementById('next-btn');
+    nextBtn.innerText = (indiceAtual + 1 < TOTAL_POR_SESSAO) ? "PRÓXIMA" : "CONCLUIR";
+
+    // Dispara o áudio automaticamente assim que a frase carrega
+    tocarAudioAutomatico();
   }
 
   function proximaFrase() {
-    indiceAtual++;
-    if (indiceAtual < TOTAL_POR_SESSAO) {
+    if (indiceAtual + 1 < TOTAL_POR_SESSAO) {
+      indiceAtual++;
       exibirFrase();
     } else {
       document.getElementById('phrase-view').style.display = 'none';
       document.getElementById('end-view').style.display = 'block';
       document.getElementById('progress-indicator').innerText = "Fim!";
+    }
+  }
+
+  function fraseAnterior() {
+    if (indiceAtual > 0) {
+      indiceAtual--;
+      exibirFrase();
     }
   }
 
